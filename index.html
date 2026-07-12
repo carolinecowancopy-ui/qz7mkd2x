@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Dashboard</title>
+<style>
+  :root {
+    --bg: #f6f5f2;
+    --card: #ffffff;
+    --ink: #1f2320;
+    --muted: #6b7268;
+    --accent: #4d6b58;
+    --accent-soft: #dfe8e1;
+    --warn: #b5651d;
+    --line: #e4e2dc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    padding: 24px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { margin-bottom: 20px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: 13px; }
+  .tabs { display: flex; gap: 8px; margin: 20px 0; border-bottom: 1px solid var(--line); }
+  .tab {
+    padding: 10px 16px;
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+  }
+  .tab.active { color: var(--accent); border-bottom: 2px solid var(--accent); }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+  }
+  .card h2 { font-size: 15px; margin: 0 0 10px; color: var(--ink); }
+  .metric-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+  .metric-label { font-size: 13px; color: var(--muted); }
+  .metric-value { font-size: 14px; font-weight: 600; }
+  .bar-track { background: var(--accent-soft); border-radius: 6px; height: 8px; overflow: hidden; margin-bottom: 12px; }
+  .bar-fill { background: var(--accent); height: 100%; border-radius: 6px; }
+  ul.plain { margin: 6px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink); }
+  ul.plain li { margin-bottom: 4px; }
+  .empty { color: var(--muted); font-size: 13px; font-style: italic; }
+  .caveat { color: var(--muted); font-size: 12px; margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  .badge.normal { background: #dfe8e1; color: #2f5240; }
+  .badge.watch { background: #f3e3d3; color: var(--warn); }
+  .week-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+  .week-row:last-child { border-bottom: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Health Dashboard</h1>
+    <div class="updated" id="updated-line">Last updated: —</div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="daily">Daily</div>
+    <div class="tab" data-tab="weekly">Weekly</div>
+    <div class="tab" data-tab="monthly">Monthly</div>
+  </div>
+
+  <div class="panel active" id="panel-daily"></div>
+  <div class="panel" id="panel-weekly"></div>
+  <div class="panel" id="panel-monthly"></div>
+</div>
+
+<script>
+// This dashboard is a static snapshot. It's refreshed each time a daily,
+// weekly, or monthly report runs (or whenever you ask for a manual refresh).
+// It does not fetch anything live on its own when you open it.
+const DATA = {
+  generatedAt: "2026-07-12T20:00:00",
+  daily: {
+    date: "12 July 2026",
+    calories: { logged: 610, target: 1800 },
+    protein: { logged: 46, target: 100 },
+    meals: [
+      "Breakfast: yoghurt 150g, chia seeds, granola — ~280 kcal, ~10g protein",
+      "Lunch: seitan 150g, mung bean noodles, mixed vegetables — ~330 kcal, ~36g protein"
+    ],
+    exercise: [],
+    bp: null
+  },
+  weekly: {
+    range: "6–12 July 2026",
+    daysLogged: 1,
+    daysInWindow: 7,
+    avgCalories: 610,
+    avgProtein: 46,
+    sprintSessions: { logged: 0, target: 2 },
+    liftSessions: { logged: 0, target: 3 },
+    bpAvg: null,
+    working: "Your one logged lunch already hit ~33g of protein on its own, so on days you log fully, the 100g target looks very reachable.",
+    improve: "No exercise or BP entries yet this week, so the sprint/lifting habit and BP trend aren't visible in the data.",
+    suggestions: "Log exercise right after the session. Pick fixed BP days (e.g. Mon/Wed/Fri) so it's not easy to skip."
+  },
+  monthly: {
+    month: "July 2026",
+    weeks: [
+      { label: "Week of 6 July", daysLogged: 1, avgCalories: 610, avgProtein: 46, exercise: 0, bp: "—" }
+    ],
+    working: "Too early to tell — one partial day isn't a pattern yet.",
+    improve: "Same as this week: get exercise and BP entries flowing so the month has real data to show a trend on.",
+    suggestions: "Once a few weeks are logged, this tab will show whether things are trending up, down, or flat."
+  }
+};
+
+function bar(logged, target) {
+  const pct = Math.min(100, Math.round((logged / target) * 100));
+  return `<div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>`;
+}
+
+function renderDaily(d) {
+  const mealList = d.meals.length
+    ? `<ul class="plain">${d.meals.map(m => `<li>${m}</li>`).join('')}</ul>`
+    : `<p class="empty">Nothing logged yet today.</p>`;
+  const exerciseList = d.exercise.length
+    ? `<ul class="plain">${d.exercise.map(e => `<li>${e}</li>`).join('')}</ul>`
+    : `<p class="empty">No exercise logged today.</p>`;
+  const bpBlock = d.bp
+    ? `<div class="metric-row"><span class="metric-label">Reading</span><span class="metric-value">${d.bp.systolic}/${d.bp.diastolic}, pulse ${d.bp.pulse}</span></div>`
+    : `<p class="empty">No BP reading logged today.</p>`;
+
+  return `
+    <div class="card">
+      <h2>${d.date} — Nutrition</h2>
+      <div class="metric-row"><span class="metric-label">Calories</span><span class="metric-value">${d.calories.logged} / ${d.calories.target} kcal</span></div>
+      ${bar(d.calories.logged, d.calories.target)}
+      <div class="metric-row"><span class="metric-label">Protein</span><span class="metric-value">${d.protein.logged} / ${d.protein.target} g</span></div>
+      ${bar(d.protein.logged, d.protein.target)}
+      ${mealList}
+    </div>
+    <div class="card">
+      <h2>Exercise</h2>
+      ${exerciseList}
+    </div>
+    <div class="card">
+      <h2>Blood pressure</h2>
+      ${bpBlock}
+    </div>
+    <div class="caveat">Nutrition numbers are estimates from food descriptions, not database-accurate.</div>
+  `;
+}
+
+function renderWeekly(w) {
+  return `
+    <div class="card">
+      <h2>${w.range} — Nutrition</h2>
+      <div class="metric-row"><span class="metric-label">Days logged</span><span class="metric-value">${w.daysLogged} of ${w.daysInWindow}</span></div>
+      <div class="metric-row"><span class="metric-label">Avg calories (logged days)</span><span class="metric-value">${w.avgCalories} kcal</span></div>
+      <div class="metric-row"><span class="metric-label">Avg protein (logged days)</span><span class="metric-value">${w.avgProtein} g</span></div>
+    </div>
+    <div class="card">
+      <h2>Exercise</h2>
+      <div class="metric-row"><span class="metric-label">Sprint sessions</span><span class="metric-value">${w.sprintSessions.logged} / ${w.sprintSessions.target}</span></div>
+      <div class="metric-row"><span class="metric-label">Lifting sessions</span><span class="metric-value">${w.liftSessions.logged} / ${w.liftSessions.target}</span></div>
+    </div>
+    <div class="card">
+      <h2>Blood pressure</h2>
+      ${w.bpAvg ? `<div class="metric-row"><span class="metric-label">Average</span><span class="metric-value">${w.bpAvg}</span></div>` : `<p class="empty">No readings logged this week.</p>`}
+    </div>
+    <div class="card">
+      <h2>What's working</h2><p>${w.working}</p>
+      <h2>What needs improvement</h2><p>${w.improve}</p>
+      <h2>Suggestions</h2><p>${w.suggestions}</p>
+    </div>
+  `;
+}
+
+function renderMonthly(m) {
+  const weekRows = m.weeks.map(w => `
+    <div class="week-row">
+      <span>${w.label}</span>
+      <span>${w.daysLogged}d logged · ${w.avgCalories} kcal · ${w.avgProtein}g protein · ${w.exercise} exercise · BP ${w.bp}</span>
+    </div>
+  `).join('');
+
+  return `
+    <div class="card">
+      <h2>${m.month} — Week by week</h2>
+      ${weekRows}
+    </div>
+    <div class="card">
+      <h2>What's working</h2><p>${m.working}</p>
+      <h2>What needs improvement</h2><p>${m.improve}</p>
+      <h2>Suggestions</h2><p>${m.suggestions}</p>
+    </div>
+  `;
+}
+
+document.getElementById('panel-daily').innerHTML = renderDaily(DATA.daily);
+document.getElementById('panel-weekly').innerHTML = renderWeekly(DATA.weekly);
+document.getElementById('panel-monthly').innerHTML = renderMonthly(DATA.monthly);
+document.getElementById('updated-line').textContent = 'Last updated: ' + new Date(DATA.generatedAt).toLocaleString();
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
