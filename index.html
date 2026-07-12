@@ -86,7 +86,7 @@
 // weekly, or monthly report runs (or whenever you ask for a manual refresh).
 // It does not fetch anything live on its own when you open it.
 const DATA = {
-  generatedAt: "2026-07-12T20:00:00",
+  generatedAt: "2026-07-12T20:00:00Z",
   daily: {
     date: "12 July 2026",
     calories: { logged: 610, target: 1800 },
@@ -107,9 +107,9 @@ const DATA = {
     sprintSessions: { logged: 0, target: 2 },
     liftSessions: { logged: 0, target: 3 },
     bpAvg: null,
-    working: "Your one logged lunch already hit ~33g of protein on its own, so on days you log fully, the 100g target looks very reachable.",
-    improve: "No exercise or BP entries yet this week, so the sprint/lifting habit and BP trend aren't visible in the data.",
-    suggestions: "Log exercise right after the session. Pick fixed BP days (e.g. Mon/Wed/Fri) so it's not easy to skip."
+    working: "There isn't enough logged this week to point to a genuine pattern — one partial day of meals, no exercise, no BP.",
+    improve: "6 of 7 days have no meal entries, and there's no exercise or BP data at all. The one logged day is well under both calorie and protein targets, likely because dinner and snacks weren't recorded.",
+    suggestions: "Log dinner and snacks on days you're already tracking breakfast/lunch. Note exercise right after sprint or lifting sessions. Log BP at least once this week for a baseline."
   },
   monthly: {
     month: "July 2026",

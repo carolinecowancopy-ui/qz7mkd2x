@@ -1,14 +1,21 @@
-Daily report — 12 July 2026
+Weekly report — 2026-07-06 to 2026-07-12
 
-Nutrition (from meals.csv)
-Breakfast: yoghurt 150g, chia seeds, granola — ~280 kcal, ~10g protein, ~31g carbs, ~14g fat
-Lunch: seitan 150g, mung bean noodles, mixed vegetables — ~330 kcal, ~36g protein, ~36g carbs, ~4g fat
-Logged so far: ~610 kcal, ~46g protein (target: 1800 kcal, 100g+ protein)
+Nutrition
+Only one day this week (2026-07-12) has any meal logging, and that day only has breakfast and lunch recorded — no dinner or snacks. That partial day comes to roughly 610 kcal and 46g protein. Protein target (100g) was not met on the one logged day, and there isn't data for the other 6 days to average against.
 
-Exercise (from exercise.csv)
-Nothing logged today.
+Exercise
+0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions logged against the 3/week target. No exercise entries at all this week.
 
-Blood pressure (from bp.csv)
-No readings logged today.
+Blood pressure
+No BP readings logged this week, so no average or trend can be calculated.
 
-Note: nutrition numbers are estimates, not database-accurate.
+What's working
+There isn't enough logged this week — one partial day of meals, no exercise, no BP — to point to a genuine pattern. Better to say that plainly than read a trend into a single incomplete day.
+
+What needs improvement
+The main gap is logging itself: 6 of 7 days have no meal entries, and there's no exercise or BP data at all this week. On the one day that was logged, both calories (~610) and protein (~46g) come in well under target, but that's likely a partial log (no dinner or snacks recorded) rather than an accurate full-day picture.
+
+Suggestions
+Log dinner and snacks on days breakfast/lunch are already being tracked, so daily totals reflect the full day. A quick note after sprint or lifting sessions ("sprints, 20 min" or "lifted, upper body") would let the exercise target actually be tracked against the 2x sprint / 3x lifting goal. Log BP at least once this week for a baseline reading against the categories in targets.md — worth prioritizing given the cardiovascular risk considerations of perimenopause.
+
+Note: nutrition figures above are estimates from written descriptions, not calculated from a food database.
