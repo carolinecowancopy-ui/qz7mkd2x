@@ -1,0 +1,14 @@
+Daily report — 12 July 2026
+
+Nutrition (from meals.csv)
+Breakfast: yoghurt 150g, chia seeds, granola — ~280 kcal, ~10g protein, ~31g carbs, ~14g fat
+Lunch: seitan 150g, mung bean noodles, mixed vegetables — ~330 kcal, ~36g protein, ~36g carbs, ~4g fat
+Logged so far: ~610 kcal, ~46g protein (target: 1800 kcal, 100g+ protein)
+
+Exercise (from exercise.csv)
+Nothing logged today.
+
+Blood pressure (from bp.csv)
+No readings logged today.
+
+Note: nutrition numbers are estimates, not database-accurate.
