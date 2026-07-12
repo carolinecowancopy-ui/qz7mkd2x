@@ -1,21 +1,16 @@
-Weekly report — 2026-07-06 to 2026-07-12
+Daily report — July 12, 2026
 
-Nutrition
-Only one day this week (2026-07-12) has any meal logging, and that day only has breakfast and lunch recorded — no dinner or snacks. That partial day comes to roughly 610 kcal and 46g protein. Protein target (100g) was not met on the one logged day, and there isn't data for the other 6 days to average against.
+Nutrition (from meals.csv)
+Breakfast: protein powder (25g), coffee, one small samosa, 30g cheese, 1/2 cup corn — roughly 410 kcal, 36g protein, 34g carbs, 18g fat.
+Lunch: pesto pasta (1 cup), side salad, 30g feta, 5 olives, 100g seitan — roughly 675 kcal, 40g protein, 61g carbs, 33g fat.
+Snack: one small sliver of milk tart — roughly 180 kcal, 4g protein, 22g carbs, 8g fat.
+Supper: mung bean noodles (150g), green curry paste, 1 cup vegetables, 20g feta, 2 tbsp full cream Greek yoghurt — roughly 290 kcal, 8g protein, 46g carbs, 9g fat.
+Logged so far: roughly 1,555 kcal and 88g protein, against targets of 1800 kcal and 100g+ protein. Calories sit under target (a moderate deficit), and protein is close to the 100g floor but about 12g short — worth topping up given how much protein matters for muscle and bone preservation through perimenopause.
 
-Exercise
-0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions logged against the 3/week target. No exercise entries at all this week.
+Exercise (from exercise.csv)
+A heavy lifting session logged today: Romanian deadlifts, back squats, farmer's carries, and hip thrusts/hip lifts, about 38 minutes total at moderate-to-vigorous intensity. Counts toward the 3x/week heavy lifting target. No sprint interval session logged today.
 
-Blood pressure
-No BP readings logged this week, so no average or trend can be calculated.
-
-What's working
-There isn't enough logged this week — one partial day of meals, no exercise, no BP — to point to a genuine pattern. Better to say that plainly than read a trend into a single incomplete day.
-
-What needs improvement
-The main gap is logging itself: 6 of 7 days have no meal entries, and there's no exercise or BP data at all this week. On the one day that was logged, both calories (~610) and protein (~46g) come in well under target, but that's likely a partial log (no dinner or snacks recorded) rather than an accurate full-day picture.
-
-Suggestions
-Log dinner and snacks on days breakfast/lunch are already being tracked, so daily totals reflect the full day. A quick note after sprint or lifting sessions ("sprints, 20 min" or "lifted, upper body") would let the exercise target actually be tracked against the 2x sprint / 3x lifting goal. Log BP at least once this week for a baseline reading against the categories in targets.md — worth prioritizing given the cardiovascular risk considerations of perimenopause.
+Blood pressure (from bp.csv)
+Nothing logged today.
 
 Note: nutrition figures above are estimates from written descriptions, not calculated from a food database.
