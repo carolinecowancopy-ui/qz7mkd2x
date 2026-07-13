@@ -1,14 +1,13 @@
-Daily report — July 12, 2026
+Daily report — 2026-07-13
 
 Nutrition (from meals.csv)
-Breakfast: protein powder (25g), coffee, one small samosa, 30g cheese, 1/2 cup corn — roughly 410 kcal, 36g protein, 34g carbs, 18g fat.
-Lunch: pesto pasta (1 cup), side salad, 30g feta, 5 olives, 100g seitan — roughly 675 kcal, 40g protein, 61g carbs, 33g fat.
-Snack: one small sliver of milk tart — roughly 180 kcal, 4g protein, 22g carbs, 8g fat.
-Supper: mung bean noodles (150g), green curry paste, 1 cup vegetables, 20g feta, 2 tbsp full cream Greek yoghurt — roughly 290 kcal, 8g protein, 46g carbs, 9g fat.
-Logged so far: roughly 1,555 kcal and 88g protein, against targets of 1800 kcal and 100g+ protein. Calories sit under target (a moderate deficit), and protein is close to the 100g floor but about 12g short — worth topping up given how much protein matters for muscle and bone preservation through perimenopause.
+Breakfast: coffee, 25g protein powder, 3 scrambled eggs, 30g cheddar, jalapeños, red pesto paste, a brown multigrain wrap, and 2 flat whites — roughly 860 kcal, 68g protein, 46g carbs, 46g fat.
+Lunch: 1 cup granola, 1/2 cup Future Life chocolate cereal, 60mL milk — roughly 665 kcal, 19g protein, 86g carbs, 26g fat.
+Dinner: 100g baked tofu, 1 cup coconut jasmine rice, a side of steamed broccoli, 60mL creamy curry sauce — roughly 620 kcal, 26g protein, 65g carbs, 32g fat.
+Logged so far: roughly 2,145 kcal and 113g protein, against targets of 1800 kcal and 100g+ protein. Calories are running about 345 over target, but protein clears the 100g floor comfortably, which is the piece that matters most for muscle and bone preservation through perimenopause.
 
 Exercise (from exercise.csv)
-A heavy lifting session logged today: Romanian deadlifts, back squats, farmer's carries, and hip thrusts/hip lifts, about 38 minutes total at moderate-to-vigorous intensity. Counts toward the 3x/week heavy lifting target. No sprint interval session logged today.
+Nothing logged today. Yesterday's heavy lifting session (Romanian deadlifts, back squats, farmer's carries, hip thrusts) still counts toward this week's 3x lifting target — no sprint intervals logged yet this week.
 
 Blood pressure (from bp.csv)
 Nothing logged today.
