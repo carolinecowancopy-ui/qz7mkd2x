@@ -1,16 +1,12 @@
-Daily report — July 14, 2026
+Daily report — 2026-07-15
 
 Nutrition (from meals.csv)
-Breakfast: protein coffee, 25g protein powder, 1/4 cup granola (pumpkin seeds, linseeds, rolled oats), 150g full cream Greek yoghurt, 1 tsp almond butter — roughly 455 kcal, 43g protein, 22g carbs, 20g fat.
-Lunch: 1 cup jasmine rice, 75g sticky tofu, 2 tbsp sticky sesame ginger sauce, a side of steamed broccoli — roughly 370 kcal, 13g protein, 62g carbs, 8g fat.
-Snack: 2 small tangerines — roughly 75 kcal, 1g protein, 19g carbs, 0g fat.
-Dinner: 1 packet instant noodles (no flavour packet), 150g tofu, 1 cup vegetable and split pea soup, a sprinkle of cheddar — roughly 665 kcal, 29g protein, 80g carbs, 25g fat.
-Logged so far: roughly 1,565 kcal and 86g protein, against targets of 1800 kcal and 100g+ protein. Calories are running about 235 under target, and protein is about 14g short of the 100g floor — worth topping up given how much protein matters for muscle and bone preservation through perimenopause.
+Nothing logged today yet. No breakfast, lunch, snack, or dinner entries for 2026-07-15, so there's nothing to total against the 1800 kcal / 100g protein targets. Once meals are logged, this section will fill in.
 
 Exercise (from exercise.csv)
-An upper-body heavy lifting session logged today: biceps curls, shoulder lifts, chest presses, side arm raises, and tricep overhead lifts, 3 sets each at 20kg, about 40 minutes total at vigorous intensity. This is the week's second lifting session (after Sunday's lower-body session), counting toward the 3x/week heavy lifting target. No sprint intervals logged yet this week.
+Nothing logged today. For context on this calendar week (Mon 2026-07-13 to Sun 2026-07-19): one upper-body heavy lifting session is logged so far, on Tuesday 07-14. That's the week's first lifting session against the 3x/week target, with two more lifting sessions and both sprint interval sessions still outstanding. (The lower-body session on 07-12 falls in the previous calendar week.)
 
 Blood pressure (from bp.csv)
-Nothing logged today — and no BP readings have been logged in the tracker at all yet. Worth prioritizing a baseline reading given the cardiovascular risk considerations of perimenopause.
+Nothing logged today, and no BP readings have been logged in the tracker at all yet. A baseline reading is worth prioritising given the cardiovascular risk considerations of perimenopause — worth mentioning to a doctor if readings, once taken, sit consistently in the elevated or stage 1/2 range.
 
-Note: nutrition figures above are estimates from written descriptions, not calculated from a food database.
+Note: nutrition figures are estimates from written descriptions, not calculated from a food database.
