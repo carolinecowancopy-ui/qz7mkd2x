@@ -1,16 +1,16 @@
 Daily report — 2026-07-15
 
 Nutrition (from meals.csv)
-Breakfast: coffee, 25g protein powder, 5 green crackers, 80g full cream smooth cottage cheese — roughly 285 kcal, 32g protein, 22g carbs, 9g fat.
+Breakfast: coffee, 25g protein powder (25g protein given), 5 green crackers (165 kcal / 2g protein given), 80g full cream smooth cottage cheese — roughly 375 kcal, 37g protein, 35g carbs, 10g fat.
 Lunch: 1 bunch buckwheat soba noodles, tomato, leek, 70g full cream smooth cottage cheese, 3/4 cup edamame beans, 1 tbsp Korean miso paste — roughly 605 kcal, 35g protein, 91g carbs, 11g fat.
 Snack: 1/2 small croissant — roughly 150 kcal, 3g protein, 15g carbs, 8g fat.
-Dinner: 88g sweet potato noodles, tofu with curry sauce (1 serving) — roughly 310 kcal, 15g protein, 32g carbs, 13g fat.
-Logged so far: roughly 1,350 kcal and 85g protein, against targets of 1800 kcal and 100g+ protein.
+Dinner: 88g sweet potato noodles, tofu with curry sauce (350 kcal / 17g protein given) — roughly 440 kcal, 17g protein, 36g carbs, 25g fat.
+Logged so far: roughly 1,570 kcal and 92g protein, against targets of 1800 kcal and 100g+ protein.
 
 Exercise (from exercise.csv)
 Sprint interval training logged today, 20 minutes at vigorous intensity — the week's first sprint session against the 2x/week target.
 
 Blood pressure (from bp.csv)
-Nothing logged today, and no BP readings have been logged in the tracker at all yet.
+Three readings logged today, averaging 122/73, pulse ~104 — elevated category.
 
-Note: nutrition figures are estimates from written descriptions, not calculated from a food database.
+Note: kcal/protein for the green crackers, the protein powder's protein content, and the tofu with curry sauce's kcal/protein were given exactly by Caroline. Other figures are estimates.

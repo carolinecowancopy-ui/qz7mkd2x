@@ -101,21 +101,21 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-07-15T21:15:00",
+  generatedAt: "2026-07-15T21:45:00",
   daily: {
     date: "15 July 2026",
-    calories: { logged: 1350, target: 1800 },
-    protein: { logged: 85, target: 100 },
-    carbs: { logged: 160 },
-    fat: { logged: 41 },
+    calories: { logged: 1570, target: 1800 },
+    protein: { logged: 92, target: 100 },
+    carbs: { logged: 177 },
+    fat: { logged: 54 },
     meals: [
       {
         meal: "Breakfast",
-        summary: "~285 kcal, ~32g protein, ~22g carbs, ~9g fat",
+        summary: "~375 kcal, ~37g protein, ~35g carbs, ~10g fat",
         items: [
           { item: "Coffee", quantity: "1 cup", kcal: 5, protein: 0, carbs: 1, fat: 0, estimated: true },
-          { item: "Protein powder", quantity: "25g", kcal: 90, protein: 20, carbs: 3, fat: 1, estimated: false },
-          { item: "Green crackers", quantity: "5", kcal: 100, protein: 2, carbs: 15, fat: 4, estimated: false },
+          { item: "Protein powder", quantity: "25g protein (given)", kcal: 115, protein: 25, carbs: 3, fat: 1, estimated: true },
+          { item: "Green crackers", quantity: "5 (165 kcal / 2g protein given)", kcal: 165, protein: 2, carbs: 28, fat: 5, estimated: true },
           { item: "Full cream smooth cottage cheese", quantity: "80g", kcal: 90, protein: 10, carbs: 3, fat: 4, estimated: false }
         ]
       },
@@ -140,39 +140,39 @@ const DATA = {
       },
       {
         meal: "Dinner",
-        summary: "~310 kcal, ~15g protein, ~32g carbs, ~13g fat",
+        summary: "~440 kcal, ~17g protein, ~36g carbs, ~25g fat",
         items: [
           { item: "Sweet potato noodles", quantity: "88g", kcal: 90, protein: 0, carbs: 22, fat: 0, estimated: false },
-          { item: "Tofu with curry sauce", quantity: "1 serving", kcal: 220, protein: 15, carbs: 10, fat: 13, estimated: true }
+          { item: "Tofu with curry sauce", quantity: "1 serving (350 kcal / 17g protein given)", kcal: 350, protein: 17, carbs: 14, fat: 25, estimated: true }
         ]
       }
     ],
     exercise: [
       "Sprint interval training — 20 min, vigorous"
     ],
-    bp: null
+    bp: { systolic: 122, diastolic: 73, pulse: 104 }
   },
   weekly: {
     range: "13–19 July 2026",
     daysLogged: 3,
     daysInWindow: 7,
-    avgCalories: 1721,
-    avgProtein: 93,
+    avgCalories: 1794,
+    avgProtein: 96,
     sprintSessions: { logged: 1, target: 2 },
     liftSessions: { logged: 1, target: 3 },
-    bpAvg: null,
-    working: "Both a lifting session (14th) and a sprint session (15th) logged so far this week, and protein is averaging close to the 100g floor across all three days logged.",
-    improve: "No BP readings logged, and there's still most of the week left to log (Thu-Sun) to hit the remaining lifting and sprint sessions.",
-    suggestions: "One more sprint session and two more lifting sessions would complete this week's exercise targets. Get a BP baseline in when convenient.",
+    bpAvg: "122/73",
+    working: "A lifting session (14th), a sprint session (15th), and a first BP reading (122/73, elevated) all logged so far this week, and protein is averaging close to the 100g floor across all three days logged.",
+    improve: "There's still most of the week left to log (Thu-Sun) to hit the remaining lifting and sprint sessions, and only one BP reading so far to judge a trend from.",
+    suggestions: "One more sprint session and two more lifting sessions would complete this week's exercise targets. A couple more BP readings this week would help tell if 122/73 is typical or a one-off.",
     trend: {
       days: ["13 Jul", "14 Jul", "15 Jul", "16 Jul", "17 Jul", "18 Jul", "19 Jul"],
-      calories: [2122, 1690, 1350, null, null, null, null],
-      protein: [100, 95, 85, null, null, null, null]
+      calories: [2122, 1690, 1570, null, null, null, null],
+      protein: [100, 95, 92, null, null, null, null]
     },
     days: [
       { date: "13 Jul", calories: 2122, protein: 100, exercise: [], bp: null },
       { date: "14 Jul", calories: 1690, protein: 95, exercise: ["Upper-body heavy lifting"], bp: null },
-      { date: "15 Jul", calories: 1350, protein: 85, exercise: ["Sprint interval training"], bp: null },
+      { date: "15 Jul", calories: 1570, protein: 92, exercise: ["Sprint interval training"], bp: { systolic: 122, diastolic: 73, pulse: 104 } },
       { date: "16 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "17 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "18 Jul", calories: null, protein: null, exercise: [], bp: null },
