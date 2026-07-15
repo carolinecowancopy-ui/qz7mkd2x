@@ -169,6 +169,24 @@ const DATA = {
       days: ["8 Jul", "9 Jul", "10 Jul", "11 Jul", "12 Jul", "13 Jul", "14 Jul"],
       calories: [null, null, null, null, 1525, 2122, 1690],
       protein: [null, null, null, null, 84, 100, 95]
+    },
+    days: [
+      { date: "8 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "9 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "10 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "11 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "12 Jul", calories: 1525, protein: 84, exercise: ["Lower-body heavy lifting"], bp: null },
+      { date: "13 Jul", calories: 2122, protein: 100, exercise: [], bp: null },
+      { date: "14 Jul", calories: 1690, protein: 95, exercise: ["Upper-body heavy lifting"], bp: null }
+    ],
+    previousWeek: {
+      range: "1–7 July 2026",
+      avgCalories: null,
+      avgProtein: null,
+      sprintSessions: { logged: 0, target: 2 },
+      liftSessions: { logged: 0, target: 3 },
+      bpAvg: null,
+      daysLogged: 0
     }
   },
   monthly: {
@@ -179,7 +197,15 @@ const DATA = {
     ],
     working: "Logging is becoming a daily habit (3 of the last 3 days have full meal entries), and both lifting sessions so far this month were logged.",
     improve: "No BP readings logged at all this month, and no sprint intervals either.",
-    suggestions: "Once a full month is logged, this view will show whether protein and BP are trending the right way over time, not just day to day."
+    suggestions: "Once a full month is logged, this view will show whether protein and BP are trending the right way over time, not just day to day.",
+    history: [
+      { month: "Feb 2026", daysLogged: 0, avgCalories: null, avgProtein: null, liftSessions: 0, sprintSessions: 0, bpAvg: null },
+      { month: "Mar 2026", daysLogged: 0, avgCalories: null, avgProtein: null, liftSessions: 0, sprintSessions: 0, bpAvg: null },
+      { month: "Apr 2026", daysLogged: 0, avgCalories: null, avgProtein: null, liftSessions: 0, sprintSessions: 0, bpAvg: null },
+      { month: "May 2026", daysLogged: 0, avgCalories: null, avgProtein: null, liftSessions: 0, sprintSessions: 0, bpAvg: null },
+      { month: "Jun 2026", daysLogged: 0, avgCalories: null, avgProtein: null, liftSessions: 0, sprintSessions: 0, bpAvg: null },
+      { month: "Jul 2026", daysLogged: 3, avgCalories: 1779, avgProtein: 93, liftSessions: 2, sprintSessions: 0, bpAvg: null }
+    ]
   }
 };
 
@@ -248,7 +274,20 @@ function renderDaily(d) {
   `;
 }
 
+function dayRows(days) {
+  return days.map(d => `
+    <tr>
+      <td>${d.date}</td>
+      <td class="num">${d.calories != null ? d.calories : '—'}</td>
+      <td class="num">${d.protein != null ? d.protein + 'g' : '—'}</td>
+      <td>${d.exercise.length ? d.exercise.join(', ') : '—'}</td>
+      <td>${d.bp ? `${d.bp.systolic}/${d.bp.diastolic}` : '—'}</td>
+    </tr>
+  `).join('');
+}
+
 function renderWeekly(w) {
+  const prev = w.previousWeek;
   return `
     <div class="card">
       <h2>${w.range} — Nutrition</h2>
@@ -259,6 +298,13 @@ function renderWeekly(w) {
       <div class="chart-wrap"><canvas id="trend-chart"></canvas></div>
     </div>
     <div class="card">
+      <h2>Day by day</h2>
+      <table class="items">
+        <thead><tr><th>Day</th><th class="num">kcal</th><th class="num">Protein</th><th>Exercise</th><th>BP</th></tr></thead>
+        <tbody>${dayRows(w.days)}</tbody>
+      </table>
+    </div>
+    <div class="card">
       <h2>Exercise</h2>
       <div class="metric-row"><span class="metric-label">Sprint sessions</span><span class="metric-value">${w.sprintSessions.logged} / ${w.sprintSessions.target}</span></div>
       <div class="metric-row"><span class="metric-label">Lifting sessions</span><span class="metric-value">${w.liftSessions.logged} / ${w.liftSessions.target}</span></div>
@@ -266,6 +312,19 @@ function renderWeekly(w) {
     <div class="card">
       <h2>Blood pressure</h2>
       ${w.bpAvg ? `<div class="metric-row"><span class="metric-label">Average</span><span class="metric-value">${w.bpAvg}</span></div>` : `<p class="empty">No readings logged this week.</p>`}
+    </div>
+    <div class="card">
+      <h2>Compared to last week (${prev.range})</h2>
+      <table class="items">
+        <thead><tr><th>Metric</th><th class="num">This week</th><th class="num">Last week</th></tr></thead>
+        <tbody>
+          <tr><td>Avg calories</td><td class="num">${w.avgCalories != null ? w.avgCalories : '—'}</td><td class="num">${prev.avgCalories != null ? prev.avgCalories : '—'}</td></tr>
+          <tr><td>Avg protein</td><td class="num">${w.avgProtein != null ? w.avgProtein + 'g' : '—'}</td><td class="num">${prev.avgProtein != null ? prev.avgProtein + 'g' : '—'}</td></tr>
+          <tr><td>Sprint sessions</td><td class="num">${w.sprintSessions.logged}</td><td class="num">${prev.sprintSessions.logged}</td></tr>
+          <tr><td>Lifting sessions</td><td class="num">${w.liftSessions.logged}</td><td class="num">${prev.liftSessions.logged}</td></tr>
+          <tr><td>BP avg</td><td class="num">${w.bpAvg || '—'}</td><td class="num">${prev.bpAvg || '—'}</td></tr>
+        </tbody>
+      </table>
     </div>
     <div class="card">
       <h2>What's working</h2><p>${w.working}</p>
@@ -283,6 +342,18 @@ function renderMonthly(m) {
     </div>
   `).join('');
 
+  const historyRows = (m.history || []).map(h => `
+    <tr>
+      <td>${h.month}</td>
+      <td class="num">${h.daysLogged}</td>
+      <td class="num">${h.avgCalories != null ? h.avgCalories : '—'}</td>
+      <td class="num">${h.avgProtein != null ? h.avgProtein + 'g' : '—'}</td>
+      <td class="num">${h.liftSessions}</td>
+      <td class="num">${h.sprintSessions}</td>
+      <td class="num">${h.bpAvg || '—'}</td>
+    </tr>
+  `).join('');
+
   return `
     <div class="card">
       <h2>${m.month} — Week by week</h2>
@@ -292,6 +363,14 @@ function renderMonthly(m) {
       <h2>What's working</h2><p>${m.working}</p>
       <h2>What needs improvement</h2><p>${m.improve}</p>
       <h2>Suggestions</h2><p>${m.suggestions}</p>
+    </div>
+    <div class="card">
+      <h2>Last 6 months</h2>
+      <div class="chart-wrap"><canvas id="history-chart"></canvas></div>
+      <table class="items" style="margin-top:12px">
+        <thead><tr><th>Month</th><th class="num">Days</th><th class="num">Avg kcal</th><th class="num">Avg protein</th><th class="num">Lifts</th><th class="num">Sprints</th><th class="num">BP avg</th></tr></thead>
+        <tbody>${historyRows}</tbody>
+      </table>
     </div>
   `;
 }
@@ -339,6 +418,42 @@ function renderTrendChart(trend) {
   });
 }
 
+let historyChart = null;
+function renderHistoryChart(history) {
+  const ctx = document.getElementById('history-chart');
+  if (!ctx || typeof Chart === 'undefined' || !history) return;
+  if (historyChart) historyChart.destroy();
+  historyChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: history.map(h => h.month),
+      datasets: [
+        {
+          label: 'Avg calories',
+          data: history.map(h => h.avgCalories),
+          backgroundColor: '#4d6b58',
+          yAxisID: 'y'
+        },
+        {
+          label: 'Avg protein (g)',
+          data: history.map(h => h.avgProtein),
+          backgroundColor: '#7a8f9c',
+          yAxisID: 'y1'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: { position: 'left', title: { display: true, text: 'kcal' } },
+        y1: { position: 'right', title: { display: true, text: 'protein (g)' }, grid: { drawOnChartArea: false } }
+      },
+      plugins: { legend: { position: 'bottom' } }
+    }
+  });
+}
+
 document.getElementById('panel-daily').innerHTML = renderDaily(DATA.daily);
 document.getElementById('panel-weekly').innerHTML = renderWeekly(DATA.weekly);
 document.getElementById('panel-monthly').innerHTML = renderMonthly(DATA.monthly);
@@ -351,10 +466,9 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
     tab.classList.add('active');
     document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
-    if (tab.dataset.tab === 'weekly') {
-      // Chart.js needs a redraw when its canvas becomes visible again
-      renderTrendChart(DATA.weekly.trend);
-    }
+    // Chart.js needs a redraw when its canvas becomes visible again
+    if (tab.dataset.tab === 'weekly') renderTrendChart(DATA.weekly.trend);
+    if (tab.dataset.tab === 'monthly') renderHistoryChart(DATA.monthly.history);
   });
 });
 </script>
