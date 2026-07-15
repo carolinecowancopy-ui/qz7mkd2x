@@ -101,38 +101,78 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-07-15T20:37:26",
+  generatedAt: "2026-07-15T21:15:00",
   daily: {
     date: "15 July 2026",
-    calories: { logged: 0, target: 1800 },
-    protein: { logged: 0, target: 100 },
-    carbs: { logged: 0 },
-    fat: { logged: 0 },
-    meals: [],
-    exercise: [],
+    calories: { logged: 1350, target: 1800 },
+    protein: { logged: 85, target: 100 },
+    carbs: { logged: 160 },
+    fat: { logged: 41 },
+    meals: [
+      {
+        meal: "Breakfast",
+        summary: "~285 kcal, ~32g protein, ~22g carbs, ~9g fat",
+        items: [
+          { item: "Coffee", quantity: "1 cup", kcal: 5, protein: 0, carbs: 1, fat: 0, estimated: true },
+          { item: "Protein powder", quantity: "25g", kcal: 90, protein: 20, carbs: 3, fat: 1, estimated: false },
+          { item: "Green crackers", quantity: "5", kcal: 100, protein: 2, carbs: 15, fat: 4, estimated: false },
+          { item: "Full cream smooth cottage cheese", quantity: "80g", kcal: 90, protein: 10, carbs: 3, fat: 4, estimated: false }
+        ]
+      },
+      {
+        meal: "Lunch",
+        summary: "~605 kcal, ~35g protein, ~91g carbs, ~11g fat",
+        items: [
+          { item: "Buckwheat soba noodles", quantity: "1 bunch", kcal: 280, protein: 10, carbs: 58, fat: 1, estimated: true },
+          { item: "Tomato", quantity: "1", kcal: 20, protein: 1, carbs: 4, fat: 0, estimated: false },
+          { item: "Leek", quantity: "1", kcal: 50, protein: 1, carbs: 12, fat: 0, estimated: false },
+          { item: "Full cream smooth cottage cheese", quantity: "70g", kcal: 80, protein: 9, carbs: 3, fat: 4, estimated: false },
+          { item: "Edamame beans", quantity: "3/4 cup", kcal: 140, protein: 12, carbs: 10, fat: 5, estimated: false },
+          { item: "Korean miso paste", quantity: "1 tbsp", kcal: 35, protein: 2, carbs: 4, fat: 1, estimated: true }
+        ]
+      },
+      {
+        meal: "Snack",
+        summary: "~150 kcal, ~3g protein, ~15g carbs, ~8g fat",
+        items: [
+          { item: "Croissant", quantity: "1/2 small", kcal: 150, protein: 3, carbs: 15, fat: 8, estimated: false }
+        ]
+      },
+      {
+        meal: "Dinner",
+        summary: "~310 kcal, ~15g protein, ~32g carbs, ~13g fat",
+        items: [
+          { item: "Sweet potato noodles", quantity: "88g", kcal: 90, protein: 0, carbs: 22, fat: 0, estimated: false },
+          { item: "Tofu with curry sauce", quantity: "1 serving", kcal: 220, protein: 15, carbs: 10, fat: 13, estimated: true }
+        ]
+      }
+    ],
+    exercise: [
+      "Sprint interval training — 20 min, vigorous"
+    ],
     bp: null
   },
   weekly: {
     range: "13–19 July 2026",
-    daysLogged: 2,
+    daysLogged: 3,
     daysInWindow: 7,
-    avgCalories: 1906,
-    avgProtein: 98,
-    sprintSessions: { logged: 0, target: 2 },
+    avgCalories: 1721,
+    avgProtein: 93,
+    sprintSessions: { logged: 1, target: 2 },
     liftSessions: { logged: 1, target: 3 },
     bpAvg: null,
-    working: "One heavy lifting session logged so far this week (upper body on the 14th), and protein is averaging close to the 100g floor across the two days logged.",
-    improve: "No sprint interval sessions yet, no BP readings logged, and there's still most of the week left to log (Wed-Sun).",
-    suggestions: "Keep logging through the rest of the week, fit in a sprint session and a second lifting day, and get a BP baseline in.",
+    working: "Both a lifting session (14th) and a sprint session (15th) logged so far this week, and protein is averaging close to the 100g floor across all three days logged.",
+    improve: "No BP readings logged, and there's still most of the week left to log (Thu-Sun) to hit the remaining lifting and sprint sessions.",
+    suggestions: "One more sprint session and two more lifting sessions would complete this week's exercise targets. Get a BP baseline in when convenient.",
     trend: {
       days: ["13 Jul", "14 Jul", "15 Jul", "16 Jul", "17 Jul", "18 Jul", "19 Jul"],
-      calories: [2122, 1690, null, null, null, null, null],
-      protein: [100, 95, null, null, null, null, null]
+      calories: [2122, 1690, 1350, null, null, null, null],
+      protein: [100, 95, 85, null, null, null, null]
     },
     days: [
       { date: "13 Jul", calories: 2122, protein: 100, exercise: [], bp: null },
       { date: "14 Jul", calories: 1690, protein: 95, exercise: ["Upper-body heavy lifting"], bp: null },
-      { date: "15 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "15 Jul", calories: 1350, protein: 85, exercise: ["Sprint interval training"], bp: null },
       { date: "16 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "17 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "18 Jul", calories: null, protein: null, exercise: [], bp: null },
