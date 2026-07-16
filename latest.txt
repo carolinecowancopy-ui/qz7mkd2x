@@ -1,16 +1,12 @@
-Daily report — 2026-07-15
+Daily report — 2026-07-16
 
 Nutrition (from meals.csv)
-Breakfast: coffee, 25g protein powder (25g protein given), 5 green crackers (165 kcal / 2g protein given), 80g full cream smooth cottage cheese — roughly 375 kcal, 37g protein, 35g carbs, 10g fat.
-Lunch: 1 bunch buckwheat soba noodles, tomato, leek, 70g full cream smooth cottage cheese, 3/4 cup edamame beans, 1 tbsp Korean miso paste — roughly 605 kcal, 35g protein, 91g carbs, 11g fat.
-Snack: 1/2 small croissant — roughly 150 kcal, 3g protein, 15g carbs, 8g fat.
-Dinner: 88g sweet potato noodles, tofu with curry sauce (350 kcal / 17g protein given) — roughly 440 kcal, 17g protein, 36g carbs, 25g fat.
-Logged so far: roughly 1,570 kcal and 92g protein, against targets of 1800 kcal and 100g+ protein.
+Nothing logged yet today. No meals have been entered for 16 July, so there's nothing to total against the 1800 kcal / 100g protein targets. (For context, this calendar week's logged days so far — Mon 13th through Wed 15th — have run roughly 1,570–2,145 kcal and 92–113g protein.)
 
 Exercise (from exercise.csv)
-Sprint interval training logged today, 20 minutes at vigorous intensity — the week's first sprint session against the 2x/week target.
+Nothing logged today. This calendar week (Mon 2026-07-13 to Sun 2026-07-19) so far has one heavy lifting session (upper-body, 07-14) and one sprint session (07-15) — leaving two lifting sessions and one sprint session still to go to hit the 3x-lifting / 2x-sprint weekly targets.
 
 Blood pressure (from bp.csv)
-Three readings logged today, averaging 122/73, pulse ~104 — elevated category.
+Nothing logged today. The most recent reading was 15 July (averaged 122/73, pulse ~104, sitting in the normal to low-elevated range). A couple more readings this week would help show whether that's typical.
 
-Note: kcal/protein for the green crackers, the protein powder's protein content, and the tofu with curry sauce's kcal/protein were given exactly by Caroline. Other figures are estimates.
+Note: nothing was logged today, so there are no nutrition figures — given or estimated — to report for 16 July.
