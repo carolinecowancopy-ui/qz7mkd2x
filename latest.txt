@@ -1,11 +1,11 @@
 Daily report — 2026-07-16
 
 Nutrition (from meals.csv)
-Breakfast: coffee, 1 scoop protein powder (25g protein given), 150g full cream Greek yoghurt, a handful of granola, 1 tsp macadamia nut butter — roughly 430 kcal, 36g protein, 30g carbs, 20g fat.
-Lunch: 1 bunch buckwheat noodles, 100g seitan, 1 leek, 1 tomato, 1 tbsp Korean miso paste — roughly 510 kcal, 35g protein, 84g carbs, 5g fat.
-Snack: 2 tangerines, 1 small croissant — roughly 275 kcal, 6g protein, 37g carbs, 12g fat.
-Dinner: 1 scoop protein powder (25g protein given), 1 small glass white wine, 150g hummus, 1 Turkish flatbread — roughly 715 kcal, 44g protein, 75g carbs, 20g fat.
-Logged so far: roughly 1,930 kcal and 121g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a touch over target (about 130 above) and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause.
+Breakfast: coffee, 1 scoop protein powder (25g protein given), 150g full cream Greek yoghurt, a handful of granola, 1 tsp macadamia nut butter — roughly 440 kcal, 37g protein, 31g carbs, 20g fat.
+Lunch: 1 bunch buckwheat noodles, 100g seitan, 1 leek, 1 tomato, 1 tbsp Korean miso paste — roughly 420 kcal, 33g protein, 67g carbs, 5g fat.
+Snack: 2 tangerines, 1 small croissant — roughly 310 kcal, 6g protein, 47g carbs, 12g fat.
+Dinner: 1 scoop protein powder (25g protein given), 1 small glass white wine, 150g hummus, 1 Turkish flatbread — roughly 730 kcal, 41g protein, 72g carbs, 20g fat.
+Logged so far: roughly 1,900 kcal and 117g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a touch over target (about 100 above) and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause.
 
 Exercise (from exercise.csv)
 Nothing logged today. This calendar week (Mon 2026-07-13 to Sun 2026-07-19) so far has one heavy lifting session (upper-body, 07-14) and one sprint session (07-15) — leaving two lifting sessions and one sprint session still to go to hit the 3x-lifting / 2x-sprint weekly targets.

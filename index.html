@@ -101,37 +101,37 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-07-16T21:55:00",
+  generatedAt: "2026-07-16T21:56:00",
   daily: {
     date: "16 July 2026",
-    calories: { logged: 1930, target: 1800 },
-    protein: { logged: 121, target: 100 },
-    carbs: { logged: 226 },
+    calories: { logged: 1900, target: 1800 },
+    protein: { logged: 117, target: 100 },
+    carbs: { logged: 217 },
     fat: { logged: 57 },
     meals: [
       { meal: "Breakfast", summary: "Coffee, protein powder, full cream Greek yoghurt, granola, macadamia nut butter", items: [
-        { item: "Coffee", quantity: "1 cup", kcal: 5, protein: 0, carbs: 1, fat: 0, estimated: true },
-        { item: "Protein powder", quantity: "1 scoop", kcal: 110, protein: 25, carbs: 3, fat: 1.5, estimated: true },
-        { item: "Full cream Greek yoghurt", quantity: "150g", kcal: 140, protein: 8, carbs: 7, fat: 9, estimated: true },
-        { item: "Granola", quantity: "1 handful", kcal: 140, protein: 3, carbs: 18, fat: 6, estimated: true },
-        { item: "Macadamia nut butter", quantity: "1 tsp", kcal: 35, protein: 0, carbs: 1, fat: 3.5, estimated: true }
+        { item: "Coffee", quantity: "1 cup", kcal: 2, protein: 0, carbs: 0, fat: 0, estimated: true },
+        { item: "Protein powder", quantity: "1 scoop", kcal: 120, protein: 25, carbs: 3, fat: 2, estimated: true },
+        { item: "Full cream Greek yoghurt", quantity: "150g", kcal: 145, protein: 9, carbs: 7, fat: 9, estimated: true },
+        { item: "Granola", quantity: "1 handful", kcal: 140, protein: 3, carbs: 20, fat: 5, estimated: true },
+        { item: "Macadamia nut butter", quantity: "1 tsp", kcal: 35, protein: 0.5, carbs: 1, fat: 4, estimated: true }
       ] },
       { meal: "Lunch", summary: "Buckwheat noodles, seitan, leek, tomato, Korean miso paste", items: [
-        { item: "Buckwheat noodles", quantity: "1 bunch", kcal: 280, protein: 10, carbs: 57, fat: 2, estimated: true },
+        { item: "Buckwheat noodles", quantity: "1 bunch", kcal: 190, protein: 7, carbs: 40, fat: 1.5, estimated: true },
         { item: "Seitan", quantity: "100g", kcal: 120, protein: 21, carbs: 4, fat: 2, estimated: true },
-        { item: "Leek", quantity: "1", kcal: 55, protein: 1, carbs: 13, fat: 0, estimated: true },
+        { item: "Leek", quantity: "1", kcal: 55, protein: 1.5, carbs: 13, fat: 0, estimated: true },
         { item: "Tomato", quantity: "1", kcal: 22, protein: 1, carbs: 5, fat: 0, estimated: true },
         { item: "Korean miso paste", quantity: "1 tbsp", kcal: 35, protein: 2, carbs: 5, fat: 1, estimated: true }
       ] },
       { meal: "Snack", summary: "Tangerines, croissant", items: [
-        { item: "Tangerines", quantity: "2", kcal: 45, protein: 1, carbs: 11, fat: 0, estimated: true },
+        { item: "Tangerines", quantity: "2", kcal: 80, protein: 1, carbs: 21, fat: 0.5, estimated: true },
         { item: "Croissant", quantity: "1 small", kcal: 230, protein: 5, carbs: 26, fat: 12, estimated: true }
       ] },
       { meal: "Dinner", summary: "Protein powder, white wine, hummus, Turkish flatbread", items: [
-        { item: "Protein powder", quantity: "1 scoop", kcal: 110, protein: 25, carbs: 3, fat: 1.5, estimated: true },
+        { item: "Protein powder", quantity: "1 scoop", kcal: 120, protein: 25, carbs: 3, fat: 2, estimated: true },
         { item: "White wine", quantity: "1 small glass", kcal: 105, protein: 0, carbs: 3, fat: 0, estimated: true },
-        { item: "Hummus", quantity: "150g", kcal: 250, protein: 11, carbs: 21, fat: 15, estimated: true },
-        { item: "Turkish flatbread", quantity: "1", kcal: 250, protein: 8, carbs: 48, fat: 3, estimated: true }
+        { item: "Hummus", quantity: "150g", kcal: 255, protein: 8, carbs: 21, fat: 15, estimated: true },
+        { item: "Turkish flatbread", quantity: "1", kcal: 250, protein: 8, carbs: 45, fat: 3, estimated: true }
       ] }
     ],
     exercise: [],
@@ -151,14 +151,14 @@ const DATA = {
     suggestions: "One more sprint session and two more lifting sessions would complete this week's exercise targets. A couple more BP readings this week would help tell if 122/73 is typical or a one-off.",
     trend: {
       days: ["13 Jul", "14 Jul", "15 Jul", "16 Jul", "17 Jul", "18 Jul", "19 Jul"],
-      calories: [2122, 1690, 1570, 1930, null, null, null],
-      protein: [100, 95, 92, 121, null, null, null]
+      calories: [2122, 1690, 1570, 1900, null, null, null],
+      protein: [100, 95, 92, 117, null, null, null]
     },
     days: [
       { date: "13 Jul", calories: 2122, protein: 100, exercise: [], bp: null },
       { date: "14 Jul", calories: 1690, protein: 95, exercise: ["Upper-body heavy lifting"], bp: null },
       { date: "15 Jul", calories: 1570, protein: 92, exercise: ["Sprint interval training"], bp: { systolic: 122, diastolic: 73, pulse: 104 } },
-      { date: "16 Jul", calories: 1930, protein: 121, exercise: [], bp: null },
+      { date: "16 Jul", calories: 1900, protein: 117, exercise: [], bp: null },
       { date: "17 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "18 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "19 Jul", calories: null, protein: null, exercise: [], bp: null }
