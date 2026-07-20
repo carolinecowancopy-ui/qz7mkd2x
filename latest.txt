@@ -1,21 +1,16 @@
-Weekly report — 13 July 2026 to 19 July 2026
+Daily report — 20 July 2026
 
-Nutrition
-Across the six days with meals logged (nothing recorded Sunday the 19th), you averaged roughly 1,820 kcal and 103g of protein per day — calories sitting right on the 1,800 target and protein clearing the 100g floor on average. Protein met the 100g target on 3 of the 6 logged days (the 13th, 16th and 18th); the other three came in at 86–97g, close but short. Data exists for 6 of the 7 days.
+Nutrition (from meals.csv)
+Breakfast: 4 sweet potato crisp cakes (32 kcal given), 80g full cream cottage cheese, 1/4 avocado — roughly 175 kcal, 11g protein, 12g carbs, 10g fat.
+Lunch: 1 packet two-minute noodles, 1 cup vegetable split pea soup, 4 small vegetarian meatballs, 3 slices cheddar cheese — roughly 830 kcal, 39g protein, 87g carbs, 37g fat.
+Dinner: 1 packet Korean ramen spicy noodles, a side of courgettes, a side of broccoli, 80g paneer/vegan paneer tofu, 2 tbsp full cream smooth cottage cheese — roughly 780 kcal, 31g protein, 93g carbs, 33g fat.
+Snack: half a salted caramel protein smoothie (whey protein, macadamia nut butter, almond milk, sea salt) — roughly 200 kcal, 16g protein, 8g carbs, 11g fat.
+Logged so far: roughly 1,985 kcal and 97g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a bit over target (about 185 above), and protein is close to the 100g floor but about 3g short — an easy top-up, and worth it given how much protein matters for muscle and bone preservation through perimenopause.
 
-Exercise
-Sprint intervals: 1 session logged against the 2/week target (15 July). Heavy lifting: 2 sessions against the 3/week target (upper body on the 14th, legs and abs on the 17th). An easy 25-minute walk on the 18th adds movement but doesn't count toward either target.
+Exercise (from exercise.csv)
+Sprint interval training logged today, 20 minutes at vigorous intensity — the week's first sprint session against the 2x/week target. Today is Monday, the first day of this calendar week (Mon 2026-07-20 to Sun 2026-07-26), so a strong start: a sprint already in the bank, with heavy lifting still to come toward the 3x/week target.
 
-Blood pressure
-Two sessions this week. Averaged across the week's readings, roughly 128/73 with a pulse around 91. The diastolic stayed comfortably normal; the systolic average sits high in the elevated range, approaching the Stage 1 boundary. The two sessions were quite different, though: 15 July sat in the normal to low-elevated range (~122/73), while the 18 July morning reading rose to ~137/74, putting the systolic solidly into Stage 1. One higher morning isn't a pattern, but perimenopause is a documented window where blood pressure tends to drift up, so it's worth watching — and if morning readings keep landing in the mid-130s, worth mentioning to your doctor.
+Blood pressure (from bp.csv)
+Three readings logged today, averaging 113/62 with a pulse around 67 — sitting comfortably in the normal range, well below the 120/80 threshold on both numbers. That's the lowest of the recent sessions (15 July was ~122/73, 18 July ~137/74), a reassuring reading after the mid-130s systolic on the 18th. Nothing here to flag; keeping up the consistent morning readings is the useful thing.
 
-What's working
-Protein is in a genuinely strong place — a 103g daily average, and even the "miss" days landed in the high-80s to high-90s, which is what supports muscle and bone through perimenopause. Calories are steady and on target, and you got in two lifts, a sprint session, and a walk across the week.
-
-What needs improvement
-Exercise volume was one session short on both fronts — one sprint instead of two, two lifts instead of three. Protein slipped just under the target on three of six days. And Sunday had nothing logged, leaving the week at 6 of 7 days of data.
-
-Suggestions
-Swap one easy session for a second sprint and add a third lifting day to close out the weekly targets. On the near-miss protein days, one extra 15–20g source — another scoop, more cottage cheese, a serving of edamame — would clear 100g comfortably. Take a couple more BP readings over the coming week at a consistent morning time to see whether the mid-130s systolic on the 18th was a one-off or a trend.
-
-Estimates vs given: the protein-powder protein (25g per scoop), the 15 July green crackers (165 kcal, 2g protein) and tofu with curry sauce (350 kcal, 17g protein), and the 18 July green crackers (48 kcal) are Caroline's stated values, used as given. All other calorie and macro figures are estimated from the written descriptions and quantities.
+Note: the sweet potato crisp cakes' 32 kcal was given exactly by Caroline and used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
