@@ -1,12 +1,12 @@
-Daily report — 19 July 2026
+Daily report — 20 July 2026
 
 Nutrition (from meals.csv)
-Nothing logged today yet. The most recent meal entries in the tracker are from 16 July; there's nothing recorded for 19 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
+Nothing logged today yet. The most recent meal entries in the tracker are from 18 July; there's nothing recorded for 20 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was a sprint interval workout on 15 July.
+Nothing logged today. Today is Monday, the first day of this calendar week (Mon 2026-07-20 to Sun 2026-07-26), so the week is a clean slate against the 3x-lifting / 2x-sprint targets — nothing logged yet this week. The last recorded session was an easy 25-minute walk on 18 July.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 15 July.
+Nothing logged today. The most recent reading was 18 July, averaging 137/74 with a pulse around 78 — the systolic sits solidly in the Stage 1 range (upper 130s of the 130-139 band) while the diastolic stayed normal. That's higher than the 15 July session (122/73, normal to low-elevated), so a couple more morning readings this week would help show whether the mid-130s systolic is typical, and it's worth mentioning to a doctor if it keeps landing there, given perimenopause is a documented window where BP tends to rise.
 
 No estimates or given values apply today — nothing was logged to calculate from.
