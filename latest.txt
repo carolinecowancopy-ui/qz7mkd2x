@@ -1,12 +1,21 @@
-Daily report — 20 July 2026
+Weekly report — 13 July 2026 to 19 July 2026
 
-Nutrition (from meals.csv)
-Nothing logged today yet. The most recent meal entries in the tracker are from 18 July; there's nothing recorded for 20 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
+Nutrition
+Across the six days with meals logged (nothing recorded Sunday the 19th), you averaged roughly 1,820 kcal and 103g of protein per day — calories sitting right on the 1,800 target and protein clearing the 100g floor on average. Protein met the 100g target on 3 of the 6 logged days (the 13th, 16th and 18th); the other three came in at 86–97g, close but short. Data exists for 6 of the 7 days.
 
-Exercise (from exercise.csv)
-Nothing logged today. Today is Monday, the first day of this calendar week (Mon 2026-07-20 to Sun 2026-07-26), so the week is a clean slate against the 3x-lifting / 2x-sprint targets — nothing logged yet this week. The last recorded session was an easy 25-minute walk on 18 July.
+Exercise
+Sprint intervals: 1 session logged against the 2/week target (15 July). Heavy lifting: 2 sessions against the 3/week target (upper body on the 14th, legs and abs on the 17th). An easy 25-minute walk on the 18th adds movement but doesn't count toward either target.
 
-Blood pressure (from bp.csv)
-Nothing logged today. The most recent reading was 18 July, averaging 137/74 with a pulse around 78 — the systolic sits solidly in the Stage 1 range (upper 130s of the 130-139 band) while the diastolic stayed normal. That's higher than the 15 July session (122/73, normal to low-elevated), so a couple more morning readings this week would help show whether the mid-130s systolic is typical, and it's worth mentioning to a doctor if it keeps landing there, given perimenopause is a documented window where BP tends to rise.
+Blood pressure
+Two sessions this week. Averaged across the week's readings, roughly 128/73 with a pulse around 91. The diastolic stayed comfortably normal; the systolic average sits high in the elevated range, approaching the Stage 1 boundary. The two sessions were quite different, though: 15 July sat in the normal to low-elevated range (~122/73), while the 18 July morning reading rose to ~137/74, putting the systolic solidly into Stage 1. One higher morning isn't a pattern, but perimenopause is a documented window where blood pressure tends to drift up, so it's worth watching — and if morning readings keep landing in the mid-130s, worth mentioning to your doctor.
 
-No estimates or given values apply today — nothing was logged to calculate from.
+What's working
+Protein is in a genuinely strong place — a 103g daily average, and even the "miss" days landed in the high-80s to high-90s, which is what supports muscle and bone through perimenopause. Calories are steady and on target, and you got in two lifts, a sprint session, and a walk across the week.
+
+What needs improvement
+Exercise volume was one session short on both fronts — one sprint instead of two, two lifts instead of three. Protein slipped just under the target on three of six days. And Sunday had nothing logged, leaving the week at 6 of 7 days of data.
+
+Suggestions
+Swap one easy session for a second sprint and add a third lifting day to close out the weekly targets. On the near-miss protein days, one extra 15–20g source — another scoop, more cottage cheese, a serving of edamame — would clear 100g comfortably. Take a couple more BP readings over the coming week at a consistent morning time to see whether the mid-130s systolic on the 18th was a one-off or a trend.
+
+Estimates vs given: the protein-powder protein (25g per scoop), the 15 July green crackers (165 kcal, 2g protein) and tofu with curry sauce (350 kcal, 17g protein), and the 18 July green crackers (48 kcal) are Caroline's stated values, used as given. All other calorie and macro figures are estimated from the written descriptions and quantities.
