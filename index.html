@@ -101,38 +101,16 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-07-20T20:10:07",
+  generatedAt: "2026-07-22T14:40:00",
   daily: {
-    date: "20 July 2026",
-    calories: { logged: 1985, target: 1800 },
-    protein: { logged: 97, target: 100 },
-    carbs: { logged: 200 },
-    fat: { logged: 91 },
-    meals: [
-      { meal: "Breakfast", summary: "roughly 175 kcal, 11g protein, 12g carbs, 10g fat", items: [
-        { item: "sweet potato crisp cakes", quantity: "4", kcal: 32, protein: 1, carbs: 6, fat: 1, estimated: true },
-        { item: "full cream cottage cheese", quantity: "80g", kcal: 85, protein: 9, carbs: 3, fat: 4, estimated: true },
-        { item: "avocado", quantity: "1/4", kcal: 60, protein: 1, carbs: 3, fat: 5, estimated: true }
-      ] },
-      { meal: "Lunch", summary: "roughly 830 kcal, 39g protein, 87g carbs, 37g fat", items: [
-        { item: "two-minute noodles", quantity: "1 packet", kcal: 350, protein: 8, carbs: 52, fat: 13, estimated: true },
-        { item: "vegetable split pea soup", quantity: "1 cup", kcal: 150, protein: 8, carbs: 25, fat: 2, estimated: true },
-        { item: "vegetarian meatballs", quantity: "4 small", kcal: 120, protein: 10, carbs: 8, fat: 5, estimated: true },
-        { item: "cheddar cheese", quantity: "3 slices", kcal: 210, protein: 13, carbs: 2, fat: 17, estimated: true }
-      ] },
-      { meal: "Dinner", summary: "roughly 780 kcal, 31g protein, 93g carbs, 33g fat", items: [
-        { item: "Korean ramen spicy noodles", quantity: "1 packet", kcal: 500, protein: 10, carbs: 79, fat: 16, estimated: true },
-        { item: "courgettes", quantity: "1 side portion", kcal: 20, protein: 2, carbs: 4, fat: 0, estimated: true },
-        { item: "broccoli", quantity: "1 side portion", kcal: 30, protein: 3, carbs: 6, fat: 0, estimated: true },
-        { item: "paneer or vegan paneer tofu", quantity: "80g", kcal: 200, protein: 13, carbs: 3, fat: 15, estimated: true },
-        { item: "full cream smooth cottage cheese", quantity: "2 tbsp", kcal: 30, protein: 3, carbs: 1, fat: 2, estimated: true }
-      ] },
-      { meal: "Snack", summary: "roughly 200 kcal, 16g protein, 8g carbs, 11g fat", items: [
-        { item: "salted caramel protein smoothie", quantity: "1/2 smoothie", kcal: 200, protein: 16, carbs: 8, fat: 11, estimated: true }
-      ] }
-    ],
-    exercise: ["Sprint intervals (20 min, vigorous)"],
-    bp: { systolic: 113, diastolic: 62, pulse: 67 }
+    date: "22 July 2026",
+    calories: { logged: 0, target: 1800 },
+    protein: { logged: 0, target: 100 },
+    carbs: { logged: 0 },
+    fat: { logged: 0 },
+    meals: [],
+    exercise: [],
+    bp: null
   },
   weekly: {
     range: "13–19 July 2026",
@@ -148,12 +126,12 @@ const DATA = {
     suggestions: "Swap one easy session for a second sprint and add a third lifting day to complete the weekly targets. On near-miss protein days, one extra 15–20g source (a scoop, more cottage cheese, edamame) clears 100g. Take a couple more morning BP readings at a consistent time to see whether the mid-130s systolic on the 18th repeats — worth mentioning to a doctor if it does.",
     trend: {
       days: ["20 Jul", "21 Jul", "22 Jul", "23 Jul", "24 Jul", "25 Jul", "26 Jul"],
-      calories: [1985, null, null, null, null, null, null],
-      protein: [97, null, null, null, null, null, null]
+      calories: [1985, 860, null, null, null, null, null],
+      protein: [97, 40, null, null, null, null, null]
     },
     days: [
       { date: "20 Jul", calories: 1985, protein: 97, exercise: ["Sprint intervals (20 min)"], bp: { systolic: 113, diastolic: 62, pulse: 67 } },
-      { date: "21 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "21 Jul", calories: 860, protein: 40, exercise: ["Heavy lifting - legs (40 min)"], bp: { systolic: 107, diastolic: 63, pulse: 66 } },
       { date: "22 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "23 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "24 Jul", calories: null, protein: null, exercise: [], bp: null },

@@ -1,16 +1,12 @@
-Daily report — 20 July 2026
+Daily report — 2026-07-22
 
 Nutrition (from meals.csv)
-Breakfast: 4 sweet potato crisp cakes (32 kcal given), 80g full cream cottage cheese, 1/4 avocado — roughly 175 kcal, 11g protein, 12g carbs, 10g fat.
-Lunch: 1 packet two-minute noodles, 1 cup vegetable split pea soup, 4 small vegetarian meatballs, 3 slices cheddar cheese — roughly 830 kcal, 39g protein, 87g carbs, 37g fat.
-Dinner: 1 packet Korean ramen spicy noodles, a side of courgettes, a side of broccoli, 80g paneer/vegan paneer tofu, 2 tbsp full cream smooth cottage cheese — roughly 780 kcal, 31g protein, 93g carbs, 33g fat.
-Snack: half a salted caramel protein smoothie (whey protein, macadamia nut butter, almond milk, sea salt) — roughly 200 kcal, 16g protein, 8g carbs, 11g fat.
-Logged so far: roughly 1,985 kcal and 97g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a bit over target (about 185 above), and protein is close to the 100g floor but about 3g short — an easy top-up, and worth it given how much protein matters for muscle and bone preservation through perimenopause.
+Nothing logged today. The most recent meal entries in the tracker are from 21 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Sprint interval training logged today, 20 minutes at vigorous intensity — the week's first sprint session against the 2x/week target. Today is Monday, the first day of this calendar week (Mon 2026-07-20 to Sun 2026-07-26), so a strong start: a sprint already in the bank, with heavy lifting still to come toward the 3x/week target.
+Nothing logged today. This calendar week (Mon 2026-07-20 to Sun 2026-07-26) so far has one sprint session (07-20) and one heavy lifting session (legs, 07-21) — leaving one more sprint and two more lifts to hit the 2x-sprint / 3x-lifting weekly targets, with four days still left in the week.
 
 Blood pressure (from bp.csv)
-Three readings logged today, averaging 113/62 with a pulse around 67 — sitting comfortably in the normal range, well below the 120/80 threshold on both numbers. That's the lowest of the recent sessions (15 July was ~122/73, 18 July ~137/74), a reassuring reading after the mid-130s systolic on the 18th. Nothing here to flag; keeping up the consistent morning readings is the useful thing.
+Nothing logged today. The most recent reading was 21 July (averaged ~107/63, pulse ~66), sitting comfortably in the normal range, well below the 120/80 threshold on both numbers.
 
-Note: the sweet potato crisp cakes' 32 kcal was given exactly by Caroline and used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
+No estimates or given values apply today — nothing was logged to calculate from.
