@@ -101,16 +101,39 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-07-22T14:41:40",
+  generatedAt: "2026-07-22T20:10:00",
   daily: {
     date: "22 July 2026",
-    calories: { logged: 0, target: 1800 },
-    protein: { logged: 0, target: 100 },
-    carbs: { logged: 0 },
-    fat: { logged: 0 },
-    meals: [],
-    exercise: [],
-    bp: null
+    calories: { logged: 1895, target: 1800 },
+    protein: { logged: 126, target: 100 },
+    carbs: { logged: 202 },
+    fat: { logged: 70 },
+    meals: [
+      { meal: "Breakfast", summary: "roughly 385 kcal, 40g protein, 16g carbs, 19g fat", items: [
+        { item: "Protein powder", quantity: "1 scoop", kcal: 120, protein: 25, carbs: 2, fat: 2, estimated: true },
+        { item: "Green crackers", quantity: "6", kcal: 48, protein: 2, carbs: 4, fat: 3, estimated: true },
+        { item: "Full cream chunky cottage cheese", quantity: "100g", kcal: 98, protein: 11, carbs: 4, fat: 4, estimated: true },
+        { item: "Avocado", quantity: "1/2", kcal: 120, protein: 2, carbs: 6, fat: 11, estimated: true }
+      ] },
+      { meal: "Lunch", summary: "roughly 785 kcal, 50g protein, 82g carbs, 30g fat", items: [
+        { item: "Two-minute noodles", quantity: "1 packet", kcal: 350, protein: 8, carbs: 52, fat: 13, estimated: true },
+        { item: "Split pea vegetable soup", quantity: "1 cup", kcal: 150, protein: 8, carbs: 25, fat: 2, estimated: true },
+        { item: "Seitan", quantity: "100g", kcal: 120, protein: 24, carbs: 4, fat: 2, estimated: true },
+        { item: "Cheddar cheese", quantity: "3 thin slices", kcal: 165, protein: 10, carbs: 1, fat: 13, estimated: true }
+      ] },
+      { meal: "Dinner", summary: "roughly 525 kcal, 34g protein, 80g carbs, 10g fat", items: [
+        { item: "Buckwheat noodles", quantity: "1 bunch", kcal: 280, protein: 12, carbs: 56, fat: 2, estimated: true },
+        { item: "Edamame beans", quantity: "1/2 cup", kcal: 90, protein: 9, carbs: 7, fat: 4, estimated: true },
+        { item: "Vegetables", quantity: "1 cup", kcal: 50, protein: 3, carbs: 10, fat: 1, estimated: true },
+        { item: "Korean miso paste", quantity: "1 tbsp", kcal: 35, protein: 2, carbs: 5, fat: 1, estimated: true },
+        { item: "Full fat chunky cottage cheese", quantity: "70g", kcal: 70, protein: 8, carbs: 3, fat: 3, estimated: true }
+      ] },
+      { meal: "Snack", summary: "roughly 200 kcal, 2g protein, 24g carbs, 11g fat", items: [
+        { item: "Shortbread biscuits", quantity: "4 small", kcal: 200, protein: 2, carbs: 24, fat: 11, estimated: true }
+      ] }
+    ],
+    exercise: ["Heavy lifting - upper body, barbell (40 min)"],
+    bp: { systolic: 105, diastolic: 69, pulse: 65 }
   },
   weekly: {
     range: "13–19 July 2026",
@@ -126,13 +149,13 @@ const DATA = {
     suggestions: "Swap one easy session for a second sprint and add a third lifting day to complete the weekly targets. On near-miss protein days, one extra 15–20g source (a scoop, more cottage cheese, edamame) clears 100g. Take a couple more morning BP readings at a consistent time to see whether the mid-130s systolic on the 18th repeats — worth mentioning to a doctor if it does.",
     trend: {
       days: ["20 Jul", "21 Jul", "22 Jul", "23 Jul", "24 Jul", "25 Jul", "26 Jul"],
-      calories: [1985, 1580, null, null, null, null, null],
-      protein: [97, 107, null, null, null, null, null]
+      calories: [1985, 1580, 1895, null, null, null, null],
+      protein: [97, 107, 126, null, null, null, null]
     },
     days: [
       { date: "20 Jul", calories: 1985, protein: 97, exercise: ["Sprint intervals (20 min)"], bp: { systolic: 113, diastolic: 62, pulse: 67 } },
       { date: "21 Jul", calories: 1580, protein: 107, exercise: ["Heavy lifting - legs (40 min)"], bp: { systolic: 107, diastolic: 63, pulse: 66 } },
-      { date: "22 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "22 Jul", calories: 1895, protein: 126, exercise: ["Heavy lifting - upper body (40 min)"], bp: { systolic: 105, diastolic: 69, pulse: 65 } },
       { date: "23 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "24 Jul", calories: null, protein: null, exercise: [], bp: null },
       { date: "25 Jul", calories: null, protein: null, exercise: [], bp: null },
