@@ -1,21 +1,12 @@
-Weekly report — 20 July 2026 to 26 July 2026 (through Saturday 25th; Sunday 26th not yet happened)
+Daily report — 2026-07-26
 
-Nutrition
-Across the five days with meals logged (Mon 20th–Fri 24th; nothing yet today, Sat 25th), intake averaged roughly 1,807 kcal and 100g of protein per day — calories running almost exactly at the 1,800 target on average, and protein landing right at the 100g floor. Only two of the five logged days (21st: 115g, 22nd: 126g) cleared 100g comfortably; the 20th came in just 3g short (97g), and the 23rd (76g) and 24th (84g) fell further behind. Data exists for 5 of 7 days so far.
+Nutrition (from meals.csv)
+Nothing logged today. The most recent meal entries in the tracker are from 24 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
-Exercise
-Sprint intervals: 2 sessions logged against the 2/week target (20th and 23rd) — target already met. Heavy lifting: 2 sessions against the 3/week target (legs on the 21st, arms/upper body on the 22nd) — one more session would close it out, with Saturday and Sunday still available.
+Exercise (from exercise.csv)
+Nothing logged today. The last recorded session was sprint interval training on 23 July. This calendar week (Mon 2026-07-20 to Sun 2026-07-26) stands at two sprint sessions (20th and 23rd — the 2x/week sprint target already met) and two lifting sessions (legs on the 21st, upper body on the 22nd) — one lift short of the 3x/week target. Today, Sunday, is the last day of the week, so a third lifting session would need to land today to close that target out.
 
-Blood pressure
-Four sessions this week (20th–23rd), averaging roughly 108/65 with a pulse around 66 — comfortably in the normal range, well under the 120/80 threshold on both numbers. This is the steadiest, lowest run of readings since tracking started, a reassuring follow-up to the single 137/74 outlier on 18 July. No reading was logged on the 24th, and nothing yet today (25th).
+Blood pressure (from bp.csv)
+Nothing logged today. The last reading was 23 July (averaged 105/64, pulse ~66, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). That capped a steady, low run of morning readings right through the week.
 
-What's working
-Both sprint sessions landed this week for the first time against the 2x/week target. Protein averaged almost exactly 100g/day, and BP has been consistently low and steady all week — the best run of morning readings so far.
-
-What needs improvement
-Lifting is one session behind (2 of 3). Protein dropped on the 23rd and 24th, both days where the meals were carb-heavy without a strong protein anchor — a granola-and-cereal dinner on the 23rd and a bread-roll dinner (rolls, veg-protein chicken pieces, avocado) on the 24th. BP wasn't logged on the 24th or today.
-
-Suggestions
-Fit in a third lifting session before Sunday. On lighter-protein days like the 23rd and 24th, add a protein anchor to the carb-heavy meal — a scoop of powder, extra cottage cheese, or a larger meat-alternative/legume portion. Keep morning BP readings going through the weekend to confirm this week's low numbers hold.
-
-Note: given nutrition values (green crackers' stated calories on several days, protein powder's 25g protein) were used as stated; all other calorie and macro figures are estimates from written descriptions, not database-accurate. The 24 July vegetarian chicken pieces were corrected to an exact 150g (previously logged as a vague "2 servings"), and moved from lunch to dinner where they were actually eaten. This report was generated Saturday rather than Sunday, so it covers the week in progress (through the 25th) rather than a fully completed week.
+Nothing was logged today, so no estimates or given values apply.
