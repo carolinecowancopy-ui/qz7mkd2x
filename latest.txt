@@ -1,21 +1,15 @@
-Weekly report — 27 July 2026 to 2 August 2026 (through Monday the 27th; the rest of the week has not happened yet)
+Daily report — 2026-07-27
 
-Nutrition
-One day logged so far (Monday the 27th): roughly 1,670 kcal and 112g protein. Calories sit a little under the 1,800 target (about 130 below, a slight deficit) and protein clears the 100g floor comfortably. Protein target met on 1 of 1 logged days. Data exists for 1 of 7 days.
+Nutrition (from meals.csv)
+Breakfast: 1 scoop protein powder (25g protein given), a handful of granola with seeds, 150g full cream Greek yoghurt, 1 tsp cashew nut butter — roughly 425 kcal, 38g protein, 27g carbs, 20g fat.
+Lunch: 2 small brown rolls, 100g seitan, 1 tbsp sriracha mayonnaise, 1 tomato, a side of lettuce, 1/2 avocado — roughly 580 kcal, 30g protein, 55g carbs, 29g fat.
+Dinner: 1 bunch buckwheat noodles, 100g seitan, 1 leek, 1 tomato, a side of red pepper, 1 tbsp Korean miso paste, 100g full cream Greek yoghurt, 3 tbsp red jelly — roughly 660 kcal, 44g protein, 99g carbs, 9g fat.
+Logged so far: roughly 1,670 kcal and 112g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a little under target (about 130 below, a slight deficit) and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause.
 
-Exercise
-Sprint intervals: 1 of 2 logged (27 July, 20 min vigorous) — a strong Monday start, halfway to the weekly sprint target on day one. Heavy lifting: 0 of 3 logged, with six days still ahead.
+Exercise (from exercise.csv)
+Sprint interval training logged today, 20 minutes at vigorous intensity. Today is Monday, the first day of a new calendar week (Mon 2026-07-27 to Sun 2026-08-02), so that's a strong start — the first of the week's two sprint sessions already in the bank, with heavy lifting still to come toward the 3x/week target and six days ahead to build it.
 
-Blood pressure
-No readings logged yet this week, so there's no average or trend to report. The most recent session was 26 July (last week), averaging around 109/62 with a pulse near 69 — comfortably in the normal range, well below the 120/80 threshold on both numbers.
+Blood pressure (from bp.csv)
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers), which capped a steady, low run of morning readings right through last week.
 
-What's working
-A strong start: Monday delivered a full day of meals with protein already over target (112g) and a sprint session in the bank. Protein consistency is the piece that matters most for muscle and bone through perimenopause, and it's off to a good start. Last week's low, steady BP run (around 108/65, the steadiest since tracking began) is a reassuring base to carry in.
-
-What needs improvement
-Nothing to flag from this week itself — it's day one. The carryover to lock in is lifting: last week finished one session short (2 of 3), so getting all three heavy lifting sessions in this week is the target to aim at. A morning BP reading would also keep the recent low run visible rather than leaving a gap.
-
-Suggestions
-Bank the second sprint and spread the three lifting sessions across the week rather than stacking them at the weekend. Keep protein anchored on every meal the way today managed it. Take a morning BP reading this week to confirm last week's low, steady numbers are holding.
-
-Note: the protein powder's 25g protein (27 July) is Caroline's stated value, used as given; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
+Note: the protein powder's protein content (25g) was given exactly by Caroline and used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
