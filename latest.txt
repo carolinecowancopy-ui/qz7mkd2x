@@ -1,12 +1,15 @@
-Daily report — 2026-07-26
+Daily report — 2026-07-27
 
 Nutrition (from meals.csv)
-Nothing logged today. The most recent meal entries in the tracker are from 24 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
+Breakfast: 1 scoop protein powder (25g protein given), a handful of granola with seeds, 150g full cream Greek yoghurt, 1 tsp cashew nut butter — roughly 425 kcal, 38g protein, 27g carbs, 20g fat.
+Lunch: 2 small brown rolls, 100g seitan, 1 tbsp sriracha mayonnaise, 1 tomato, a side of lettuce, 1/2 avocado — roughly 580 kcal, 30g protein, 55g carbs, 29g fat.
+Dinner: 1 bunch buckwheat noodles, 100g seitan, 1 leek, 1 tomato, a side of red pepper, 1 tbsp Korean miso paste, 100g full cream Greek yoghurt, 3 tbsp red jelly — roughly 660 kcal, 44g protein, 99g carbs, 9g fat.
+Logged so far: roughly 1,670 kcal and 112g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a little under target (about 130 below, a slight deficit) and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was sprint interval training on 23 July. This calendar week (Mon 2026-07-20 to Sun 2026-07-26) stands at two sprint sessions (20th and 23rd — the 2x/week sprint target already met) and two lifting sessions (legs on the 21st, upper body on the 22nd) — one lift short of the 3x/week target. Today, Sunday, is the last day of the week, so a third lifting session would need to land today to close that target out.
+Nothing logged today. Today is Monday, the first day of a new calendar week (Mon 2026-07-27 to Sun 2026-08-02), so the week starts fresh at zero sprint sessions and zero lifting sessions against the 2x-sprint / 3x-lifting weekly targets — six days still ahead to build them. The last recorded session was sprint interval training on 23 July.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 23 July (averaged 105/64, pulse ~66, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). That capped a steady, low run of morning readings right through the week.
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers), which capped a steady, low run of morning readings right through last week.
 
-Nothing was logged today, so no estimates or given values apply.
+Note: the protein powder's protein content (25g) was given exactly by Caroline and used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.

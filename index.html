@@ -101,14 +101,39 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-07-26T15:04:04",
+  generatedAt: "2026-07-27T20:49:00",
   daily: {
-    date: "26 July 2026",
-    calories: { logged: 0, target: 1800 },
-    protein: { logged: 0, target: 100 },
-    carbs: { logged: 0 },
-    fat: { logged: 0 },
-    meals: [],
+    date: "27 July 2026",
+    calories: { logged: 1670, target: 1800 },
+    protein: { logged: 112, target: 100 },
+    carbs: { logged: 181 },
+    fat: { logged: 58 },
+    meals: [
+      { meal: "Breakfast", summary: "1 scoop protein powder, granola with seeds, full cream Greek yoghurt, cashew nut butter — ~425 kcal, 38g protein", items: [
+        { item: "protein powder", quantity: "1 scoop", kcal: 110, protein: 25, carbs: 3, fat: 2, estimated: true },
+        { item: "granola with seeds", quantity: "1 handful", kcal: 140, protein: 4, carbs: 16, fat: 7, estimated: true },
+        { item: "full cream Greek yoghurt", quantity: "150g", kcal: 140, protein: 8, carbs: 6, fat: 8, estimated: true },
+        { item: "cashew nut butter", quantity: "1 tsp", kcal: 35, protein: 1, carbs: 2, fat: 3, estimated: true }
+      ] },
+      { meal: "Lunch", summary: "2 small brown rolls, seitan, sriracha mayo, tomato, lettuce, avocado — ~580 kcal, 30g protein", items: [
+        { item: "brown rolls", quantity: "2 small", kcal: 180, protein: 6, carbs: 34, fat: 2, estimated: true },
+        { item: "seitan", quantity: "100g", kcal: 120, protein: 21, carbs: 4, fat: 2, estimated: true },
+        { item: "sriracha mayonnaise", quantity: "1 tbsp", kcal: 90, protein: 0, carbs: 1, fat: 10, estimated: true },
+        { item: "tomato", quantity: "1", kcal: 22, protein: 1, carbs: 5, fat: 0, estimated: true },
+        { item: "lettuce", quantity: "1 side portion", kcal: 8, protein: 0, carbs: 2, fat: 0, estimated: true },
+        { item: "avocado", quantity: "1/2", kcal: 160, protein: 2, carbs: 9, fat: 15, estimated: true }
+      ] },
+      { meal: "Dinner", summary: "buckwheat noodles, seitan, leek, tomato, red pepper, Korean miso, Greek yoghurt, red jelly — ~660 kcal, 44g protein", items: [
+        { item: "buckwheat noodles", quantity: "1 bunch", kcal: 280, protein: 11, carbs: 57, fat: 1, estimated: true },
+        { item: "seitan", quantity: "100g", kcal: 120, protein: 21, carbs: 4, fat: 2, estimated: true },
+        { item: "leek", quantity: "1", kcal: 40, protein: 2, carbs: 9, fat: 0, estimated: true },
+        { item: "tomato", quantity: "1", kcal: 22, protein: 1, carbs: 5, fat: 0, estimated: true },
+        { item: "red pepper", quantity: "1 side portion", kcal: 30, protein: 1, carbs: 6, fat: 0, estimated: true },
+        { item: "Korean miso paste", quantity: "1 tbsp", kcal: 35, protein: 2, carbs: 5, fat: 1, estimated: true },
+        { item: "full cream Greek yoghurt", quantity: "100g", kcal: 95, protein: 5, carbs: 4, fat: 5, estimated: true },
+        { item: "red jelly/jello", quantity: "3 tbsp", kcal: 40, protein: 1, carbs: 9, fat: 0, estimated: true }
+      ] }
+    ],
     exercise: [],
     bp: null
   },
@@ -125,18 +150,18 @@ const DATA = {
     improve: "Heavy lifting is one session behind — two logged (legs on the 21st, arms on the 22nd) against the 3x/week target, with Saturday and Sunday left to close it out. Protein dropped on the 23rd (76g) and 24th (84g), both lighter-protein days — a granola-and-cereal dinner on the 23rd and a bread-roll dinner (rolls, veg-protein chicken pieces, avocado) on the 24th ran light relative to their carbs. No BP reading on the 24th, and nothing logged yet today (25th).",
     suggestions: "Fit in one more lifting session before Sunday to hit the 3x/week target. On lower-protein days like the 23rd and 24th, add a protein anchor — a scoop of powder, extra cottage cheese, or a meat/legume portion at the meal that's carb-heavy. Keep the morning BP readings going through the weekend; this week's low, steady numbers (108/65) are worth confirming aren't a one-off before treating them as the new baseline.",
     trend: {
-      days: ["20 Jul", "21 Jul", "22 Jul", "23 Jul", "24 Jul", "25 Jul", "26 Jul"],
-      calories: [1985, 1610, 1895, 1855, 1689, null, null],
-      protein: [97, 115, 126, 76, 84, null, null]
+      days: ["27 Jul", "28 Jul", "29 Jul", "30 Jul", "31 Jul", "01 Aug", "02 Aug"],
+      calories: [1670, null, null, null, null, null, null],
+      protein: [112, null, null, null, null, null, null]
     },
     days: [
-      { date: "20 Jul", calories: 1985, protein: 97, exercise: ["Sprint intervals (20 min)"], bp: { systolic: 113, diastolic: 62, pulse: 67 } },
-      { date: "21 Jul", calories: 1610, protein: 115, exercise: ["Heavy lifting - legs day (40 min)"], bp: { systolic: 107, diastolic: 63, pulse: 66 } },
-      { date: "22 Jul", calories: 1895, protein: 126, exercise: ["Heavy lifting - arms/upper body (40 min)"], bp: { systolic: 105, diastolic: 69, pulse: 65 } },
-      { date: "23 Jul", calories: 1855, protein: 76, exercise: ["Sprint intervals (20 min)"], bp: { systolic: 105, diastolic: 64, pulse: 66 } },
-      { date: "24 Jul", calories: 1689, protein: 84, exercise: [], bp: null },
-      { date: "25 Jul", calories: null, protein: null, exercise: [], bp: null },
-      { date: "26 Jul", calories: null, protein: null, exercise: [], bp: null }
+      { date: "27 Jul", calories: 1670, protein: 112, exercise: [], bp: null },
+      { date: "28 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "29 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "30 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "31 Jul", calories: null, protein: null, exercise: [], bp: null },
+      { date: "01 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "02 Aug", calories: null, protein: null, exercise: [], bp: null }
     ],
     previousWeek: {
       range: "13–19 July 2026",
