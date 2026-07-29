@@ -1,17 +1,21 @@
-Daily report — 2026-07-29
+Weekly report — 27 July 2026 to 2 August 2026 (through Wednesday the 29th; Thursday to Sunday not yet happened)
 
-Nutrition (from meals.csv)
-Breakfast: 6 green crisp cakes (48 kcal given), 125g full cream chunky cottage cheese, 1/2 avocado — roughly 290 kcal, 17g protein, 19g carbs, 18g fat.
-Lunch: 1 packet Korean spicy noodles, a side of spinach, 1 tomato, 1 leek, 100g seitan, 125g full cream chunky cottage cheese — roughly 820 kcal, 49g protein, 104g carbs, 24g fat.
-Snack: 1 scoop protein powder (25g protein given) — roughly 110 kcal, 25g protein, 2g carbs, 2g fat.
-Dinner: 100g seitan, 1 tomato, 1 cup green curry soup (bamboo shoots, leafy greens), 1 cup brown rice with quinoa, a handful of grated white cheddar — roughly 610 kcal, 38g protein, 65g carbs, 24g fat.
-Snack: 2 small Oreos, 1 cup Milo (hot water only, no milk) — roughly 160 kcal, 2g protein, 27g carbs, 5g fat.
-Logged so far: roughly 1,990 kcal and 130g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a little over target (about 190 above) and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause.
+Nutrition
+Three days logged so far (Mon 27th–Wed 29th), averaging roughly 1,880 kcal and 112g protein per day. Calories are running a little over the 1,800 target on average, and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause. Protein hit 100g on 2 of the 3 logged days (Monday 112g, Wednesday 130g); Tuesday came in around 93g, close but short, on a heavier carb day (mung bean noodles at both lunch and dinner). Data exists for 3 of 7 days.
 
-Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was sprint interval training on 27 July. This calendar week (Mon 2026-07-27 to Sun 2026-08-02) stands at one sprint session (27th) and no heavy lifting sessions — one sprint short of the 2x/week target and three short of the 3x/week lifting target, with four days left in the week (Thu–Sun) to build them.
+Exercise
+Sprint intervals: 1 of 2 logged (27 July, 20 min vigorous). Heavy lifting: 1 of 3 logged (28 July, lower body, 40 min vigorous). Both targets are still open with four days left in the week (Thu–Sun) — one more sprint and two more lifts to close them out.
 
-Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers), which capped a steady, low run of morning readings through last week.
+Blood pressure
+No readings logged yet this week, so there's no average or trend to report. The most recent session was 26 July (last week), averaging around 109/62 with a pulse near 69 — sitting comfortably in the normal range, well below the 120/80 threshold on both numbers, and capping a steady low run right through last week.
 
-Note: the green crisp cakes' 48 kcal and the protein powder's 25g protein were given exactly by Caroline and used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
+What's working
+Protein consistency is holding well — a 112g daily average across three days, with even the softer day landing in the low-90s. Monday and Wednesday both cleared 100g easily, anchored by protein powder, cottage cheese, seitan and Greek yoghurt. A sprint and a lift are already banked early in the week, so both exercise targets are still live rather than needing a weekend scramble.
+
+What needs improvement
+Tuesday dipped just under the protein floor (~93g) on a day built around mung bean noodles without a strong protein anchor at either main meal. Exercise is on track but not ahead — one sprint and one lift with the back half of the week to fill in the remaining sprint and two lifts. And no BP reading yet this week leaves a gap after last week's reassuringly low run.
+
+Suggestions
+On carb-heavy days like Tuesday, add one protein anchor to a main meal — a scoop of powder, extra cottage cheese, or a larger seitan/edamame portion — to keep every day over 100g. Spread the remaining lifts (Thu/Fri and the weekend) rather than stacking them Sunday, and get the second sprint in. Take a morning BP reading this week to confirm last week's low, steady numbers are holding.
+
+Note: the protein powder's 25g protein (27, 28, 29 July) and the green crisp cakes' 48 kcal (29 July) are Caroline's stated values, used as given; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
