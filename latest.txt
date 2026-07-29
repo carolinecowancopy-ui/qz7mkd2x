@@ -1,7 +1,12 @@
 Daily report — 2026-07-29
 
 Nutrition (from meals.csv)
-Nothing logged today. The most recent meal entries in the tracker are from 27 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
+Breakfast: 6 green crisp cakes (48 kcal given), 125g full cream chunky cottage cheese, 1/2 avocado — roughly 290 kcal, 17g protein, 19g carbs, 18g fat.
+Lunch: 1 packet Korean spicy noodles, a side of spinach, 1 tomato, 1 leek, 100g seitan, 125g full cream chunky cottage cheese — roughly 820 kcal, 49g protein, 104g carbs, 24g fat.
+Snack: 1 scoop protein powder (25g protein given) — roughly 110 kcal, 25g protein, 2g carbs, 2g fat.
+Dinner: 100g seitan, 1 tomato, 1 cup green curry soup (bamboo shoots, leafy greens), 1 cup brown rice with quinoa, a handful of grated white cheddar — roughly 610 kcal, 38g protein, 65g carbs, 24g fat.
+Snack: 2 small Oreos, 1 cup Milo (hot water only, no milk) — roughly 160 kcal, 2g protein, 27g carbs, 5g fat.
+Logged so far: roughly 1,990 kcal and 130g protein, against targets of 1800 kcal and 100g+ protein. Calories sit a little over target (about 190 above) and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause.
 
 Exercise (from exercise.csv)
 Nothing logged today. The last recorded session was sprint interval training on 27 July. This calendar week (Mon 2026-07-27 to Sun 2026-08-02) stands at one sprint session (27th) and no heavy lifting sessions — one sprint short of the 2x/week target and three short of the 3x/week lifting target, with four days left in the week (Thu–Sun) to build them.
@@ -9,4 +14,4 @@ Nothing logged today. The last recorded session was sprint interval training on 
 Blood pressure (from bp.csv)
 Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers), which capped a steady, low run of morning readings through last week.
 
-Nothing was logged today, so no estimates or given values apply.
+Note: the green crisp cakes' 48 kcal and the protein powder's 25g protein were given exactly by Caroline and used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
