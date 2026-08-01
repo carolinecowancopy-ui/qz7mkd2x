@@ -1,12 +1,21 @@
-Daily report — 2026-08-01
+Weekly report — 27 July 2026 to 2 August 2026 (through Friday the 31st; nothing logged yet today, Saturday the 1st; Sunday the 2nd not yet happened)
 
-Nutrition (from meals.csv)
-Nothing logged today. The most recent meal entries in the tracker are from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
+Nutrition
+Five days logged so far (Mon 27th–Fri 31st), averaging roughly 1,900 kcal and 110g protein per day. Calories are running a little over the 1,800 target on average, and protein clears the 100g floor comfortably — the piece that matters most for muscle and bone preservation through perimenopause. Protein hit 100g on 4 of the 5 logged days (Mon 112g, Wed 130g, Thu 111g, Fri 103g); Tuesday came in around 95g, close but short, on a heavier carb day (mung bean noodles at both lunch and dinner). Data exists for 5 of 7 days.
 
-Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. This calendar week (Mon 2026-07-27 to Sun 2026-08-02) stands at two sprint sessions (27th and 30th — the 2x/week sprint target already met) and two lifting sessions (lower body on the 28th, arms/upper body on the 31st) — one lift short of the 3x/week target, with today (Saturday) and tomorrow (Sunday) left to close it out.
+Exercise
+Sprint intervals: 2 of 2 logged (27th and 30th) — target met. Heavy lifting: 2 of 3 logged (28th lower body, 31st arms/upper body). One more lifting session over the weekend would close out the 3x/week target.
 
-Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers), which capped a steady, low run of morning readings through last week. A reading this weekend would be worth taking — it's been nearly a week since the last one, and perimenopause is a documented window where BP tends to drift upward, so keeping the morning-reading habit going is the useful thing.
+Blood pressure
+No readings logged yet this week, so there's no average or trend to report. The most recent session was 26 July (last week), averaging around 109/62 with a pulse near 69 — sitting comfortably in the normal range, well below the 120/80 threshold on both numbers. It's been nearly a week since the last reading; a morning reading this weekend would be worth taking, especially as perimenopause is a documented window where BP tends to drift upward.
 
-Nothing was logged today, so no estimates or given values apply.
+What's working
+The two targets that can be fully hit mid-week are in good shape: both sprints are banked, and protein is holding at a 110g daily average with four of five days clearing 100g easily — anchored by protein powder, cottage cheese, seitan and Greek yoghurt. Calories are steady and close to target.
+
+What needs improvement
+Lifting is one session short (2 of 3) with the weekend left to close it. Tuesday dipped just under the protein floor (~95g) on a day built around mung bean noodles without a strong protein anchor at either main meal. And no BP reading this week leaves a gap after last week's reassuringly low run.
+
+Suggestions
+Fit in a third lifting session this weekend to close the exercise targets. On carb-heavy days like Tuesday, add one protein anchor to a main meal — a scoop of powder, extra cottage cheese, or a larger seitan/edamame portion — to keep every day over 100g. Take a morning BP reading this weekend to confirm last week's low, steady numbers are holding.
+
+Note: the protein powder's stated protein (25g/scoop; 50g on the 31st) and the green crisp cakes' stated calories (48 kcal on the 29th, 40 kcal on the 31st) are Caroline's given values, used as stated; all other calorie and macro figures are estimates from the written descriptions, not database-accurate.
