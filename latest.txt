@@ -1,27 +1,21 @@
-Monthly report — July 2026
+Weekly report — 3 August 2026 to 9 August 2026
 
-Week-by-week
-Week of 6 July (6–12 Jul): 1 day logged (the 12th). Avg ~1,595 kcal / ~79g protein. Exercise: 1 heavy-lifting session, 0 sprints. No BP readings.
-Week of 13 July (13–19 Jul): 6 days logged (13th–18th). Avg ~1,823 kcal / ~102g protein. Exercise: 1 sprint, 2 lifting. BP averaged ~128/73 across two sessions (15th and 18th).
-Week of 20 July (20–26 Jul): 6 days logged (20th–24th, 26th). Avg ~1,730 kcal / ~89g protein. Exercise: 2 sprints, 2 lifting. BP averaged ~108/64 across five sessions.
-Week of 27 July (27 Jul–2 Aug): 5 days logged so far (27th–31st). Avg ~1,888 kcal / ~113g protein. Exercise: 2 sprints, 2 lifting. No BP readings.
+Nutrition
+No meals were logged this week. The most recent meal entries in the tracker are from 31 July, so there are no daily totals to average against the 1,800 kcal / 100g protein targets. Data exists for 0 of 7 days.
 
-Nutrition (month total)
-Across the 18 days logged in July, intake averaged roughly 1,797 kcal and 99g protein per day. Calories sat almost exactly on the 1,800 target for the month. Protein landed just under the 100g floor as a monthly average, and cleared 100g on 9 of the 18 logged days — so it was met on half the days but missed on the other half, usually on lighter breakfast-and-noodles days without a strong protein anchor at a main meal.
+Exercise
+0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions logged against the 3/week target. No exercise entries at all this week — the last recorded session was resistance training (arms/upper body) on 31 July.
 
-Exercise (month total)
-Sprint intervals: 5 sessions against a target of 8 (2/week across the month's 4 weeks). Heavy lifting: 7 sessions against a target of 12 (3/week). Both are under target for the full month, though the shortfall is smaller in the well-logged back half than in the sparse first week.
-
-Blood pressure (month total)
-Across all 20 readings taken in July (weeks of the 13th and 20th only), the average was about 113/66 with a pulse near 72. That average sits comfortably within the normal range, well clear of the 120/80 boundary on both numbers. The trend across the month was downward: the week of the 13th averaged ~128/73 — solidly in the elevated range and pulled up by one morning session on the 18th that reached 137/136 systolic, which is into Stage 1 territory — while the following week settled to ~108/64, comfortably normal. No readings were logged in the first or last week, so the picture rests on two weeks of data.
+Blood pressure
+No BP readings logged this week, so no average or trend can be calculated. The most recent session was 26 July, averaging around 109/62 with a pulse near 69 — comfortably in the normal range, well below the 120/80 threshold on both numbers. It has now been more than two weeks since the last reading.
 
 What's working
-Calories are steady and on target, and the back half of the month shows the log becoming a daily habit with fuller entries. Protein is well anchored on the days it lands — protein powder, cottage cheese, seitan and Greek yoghurt do the heavy lifting — and the week of the 27th cleared 100g on 4 of 5 days. The single high BP morning on the 18th resolved to comfortably normal readings the following week.
+Nothing is logged for this week — no meals, no exercise, no BP across all seven days — so there's no genuine pattern to point to, and it's better to say that plainly than read something into an empty week. For context, the preceding week (27 July–2 August) was in good shape: both sprints banked, protein averaging around 110g/day, calories near target.
 
 What needs improvement
-Protein is the recurring gap: it missed 100g on half the logged days, and the monthly average slipped just under the floor — the number that matters most for muscle and bone preservation through perimenopause. Both exercise targets came in under for the month (5/8 sprints, 7/12 lifts), partly because the first week is barely logged. BP coverage is thin — only two of four weeks have any readings.
+The whole week is a logging gap: 0 of 7 days have any meal, exercise, or BP entry. This is the first fully blank week since the daily habit picked up in mid-July, so the thing to improve is simply getting back to logging.
 
 Suggestions
-Add one deliberate protein anchor (a scoop of powder, extra cottage cheese, edamame, or a larger seitan portion) to a main meal on the lighter days to lift the daily-100g hit rate from half to most days. Aim to bank the third weekly lifting session and keep both sprints, which would bring the monthly totals close to target. Take a BP reading roughly weekly rather than in clusters, so each week of the month has at least one session — worth doing given perimenopause is a documented window where BP tends to drift up; the single Stage-1 morning reading on the 18th is worth mentioning to a doctor if morning readings keep landing there, though it stood alone this month.
+Restart with the basics: log meals for a day or two to re-establish daily totals, jot a quick line after any sprint or lifting session, and take one morning BP reading to close the two-week-plus gap — worth doing given perimenopause is a documented window where blood pressure tends to drift upward. Even a couple of days of entries will make next week's report meaningful again.
 
-Figures note: protein-powder protein values (the 25g scoops, and 50g on the 31st) and a handful of items Caroline stated directly — the green crackers/crisp cakes calories on the 15th, 18th, 20th, 21st, 22nd, 24th, 29th and 31st, and the tofu curry (350 kcal / 17g) and green crackers (165 kcal / 2g) on the 15th — are her given values, used as stated. All other calorie and macro figures are estimates. BP readings and exercise durations are as logged.
+Note: no figures this week are estimates or given values — nothing was logged to calculate from.

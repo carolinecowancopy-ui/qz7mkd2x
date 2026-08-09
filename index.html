@@ -101,7 +101,7 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-08-01T16:20:00",
+  generatedAt: "2026-08-09T11:05:00",
   daily: {
     date: "1 August 2026",
     calories: { logged: 0, target: 1800 },
@@ -113,38 +113,38 @@ const DATA = {
     bp: null
   },
   weekly: {
-    range: "27 July – 2 August 2026",
-    daysLogged: 5,
+    range: "3–9 August 2026",
+    daysLogged: 0,
     daysInWindow: 7,
-    avgCalories: 1901,
-    avgProtein: 110,
-    sprintSessions: { logged: 2, target: 2 },
-    liftSessions: { logged: 2, target: 3 },
+    avgCalories: null,
+    avgProtein: null,
+    sprintSessions: { logged: 0, target: 2 },
+    liftSessions: { logged: 0, target: 3 },
     bpAvg: "",
-    working: "The two targets that can be fully hit mid-week are in good shape: both sprints are banked, and protein is holding at a 110g daily average with four of five days clearing 100g easily — anchored by protein powder, cottage cheese, seitan and Greek yoghurt. Calories are steady and close to target.",
-    improve: "Lifting is one session short (2 of 3) with the weekend left to close it. Tuesday dipped just under the protein floor (~95g) on a day built around mung bean noodles without a strong protein anchor at either main meal. And no BP reading this week leaves a gap after last week's reassuringly low run (around 108/65).",
-    suggestions: "Fit in a third lifting session this weekend to close the exercise targets. On carb-heavy days like Tuesday, add one protein anchor to a main meal — a scoop of powder, extra cottage cheese, or a larger seitan/edamame portion — to keep every day over 100g. Take a morning BP reading this weekend to confirm last week's low, steady numbers are holding.",
+    working: "Nothing is logged for this week — no meals, no exercise, no BP across all seven days — so there's no genuine pattern to point to, and it's better to say that plainly than read something into an empty week. For context, the preceding week (27 July–2 August) was in good shape: both sprints banked, protein averaging around 110g/day, calories near target.",
+    improve: "The whole week is a logging gap: 0 of 7 days have any meal, exercise, or BP entry. This is the first fully blank week since the daily habit picked up in mid-July, so the thing to improve is simply getting back to logging.",
+    suggestions: "Restart with the basics: log meals for a day or two to re-establish daily totals, jot a quick line after any sprint or lifting session, and take one morning BP reading to close the two-week-plus gap — worth doing given perimenopause is a documented window where blood pressure tends to drift upward. Even a couple of days of entries will make next week's report meaningful again.",
     trend: {
-      days: ["27 Jul", "28 Jul", "29 Jul", "30 Jul", "31 Jul", "1 Aug", "2 Aug"],
-      calories: [1694, 1744, 2052, 1941, 2010, null, null],
-      protein: [111, 97, 132, 116, 108, null, null]
+      days: ["3 Aug", "4 Aug", "5 Aug", "6 Aug", "7 Aug", "8 Aug", "9 Aug"],
+      calories: [null, null, null, null, null, null, null],
+      protein: [null, null, null, null, null, null, null]
     },
     days: [
-      { date: "27 Jul", calories: 1694, protein: 111, exercise: ["Sprint intervals (20 min)"], bp: null },
-      { date: "28 Jul", calories: 1744, protein: 97, exercise: ["Heavy lifting (lower body, 40 min)"], bp: null },
-      { date: "29 Jul", calories: 2052, protein: 132, exercise: [], bp: null },
-      { date: "30 Jul", calories: 1941, protein: 116, exercise: ["Sprint intervals (20 min)"], bp: null },
-      { date: "31 Jul", calories: 2010, protein: 108, exercise: ["Resistance training (arms/upper body, 40 min)"], bp: null },
-      { date: "1 Aug", calories: null, protein: null, exercise: [], bp: null },
-      { date: "2 Aug", calories: null, protein: null, exercise: [], bp: null }
+      { date: "3 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "4 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "5 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "6 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "7 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "8 Aug", calories: null, protein: null, exercise: [], bp: null },
+      { date: "9 Aug", calories: null, protein: null, exercise: [], bp: null }
     ],
     previousWeek: {
-      range: "20–26 July 2026",
-      avgCalories: 1807,
-      avgProtein: 100,
+      range: "27 July – 2 August 2026",
+      avgCalories: 1901,
+      avgProtein: 110,
       sprintSessions: { logged: 2, target: 2 },
       liftSessions: { logged: 2, target: 3 },
-      bpAvg: "108/65",
+      bpAvg: "",
       daysLogged: 5
     }
   },
