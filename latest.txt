@@ -1,10 +1,10 @@
-Daily report — 2026-08-09
+Daily report — 2026-08-10
 
 Nutrition (from meals.csv)
 Nothing logged today. The most recent meal entries in the tracker are from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. This calendar week (Mon 2026-08-03 to Sun 2026-08-09) has no sessions logged at all — no sprints and no lifting against the 2x-sprint / 3x-lifting weekly targets. Today, Sunday, is the last day of the week, so the week closes out without either target met. It's been over a week since the last logged session; a note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Monday, the first day of a new calendar week (Mon 2026-08-10 to Sun 2026-08-16), so the week opens with nothing logged yet against the 2x-sprint / 3x-lifting weekly targets — a clean slate to build on. It's now been well over a week since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
 Blood pressure (from bp.csv)
 Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers), which capped a steady, low run of morning readings. It's now been over two weeks since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so keeping the habit going is the useful thing.
