@@ -101,7 +101,7 @@
 // weekly, or monthly report runs (or whenever a manual refresh is asked
 // for). It does not fetch anything live on its own when opened.
 const DATA = {
-  generatedAt: "2026-08-10T14:07:33",
+  generatedAt: "2026-08-10T14:08:30",
   daily: {
     date: "10 August 2026",
     calories: { logged: 0, target: 1800 },
@@ -113,7 +113,7 @@ const DATA = {
     bp: null
   },
   weekly: {
-    range: "3–9 August 2026",
+    range: "10–16 August 2026",
     daysLogged: 0,
     daysInWindow: 7,
     avgCalories: null,
@@ -121,9 +121,9 @@ const DATA = {
     sprintSessions: { logged: 0, target: 2 },
     liftSessions: { logged: 0, target: 3 },
     bpAvg: "",
-    working: "Nothing is logged for this week — no meals, no exercise, no BP across all seven days — so there's no genuine pattern to point to, and it's better to say that plainly than read something into an empty week. For context, the preceding week (27 July–2 August) was in good shape: both sprints banked, protein averaging around 110g/day, calories near target.",
-    improve: "The whole week is a logging gap: 0 of 7 days have any meal, exercise, or BP entry. This is the first fully blank week since the daily habit picked up in mid-July, so the thing to improve is simply getting back to logging.",
-    suggestions: "Restart with the basics: log meals for a day or two to re-establish daily totals, jot a quick line after any sprint or lifting session, and take one morning BP reading to close the two-week-plus gap — worth doing given perimenopause is a documented window where blood pressure tends to drift upward. Even a couple of days of entries will make next week's report meaningful again.",
+    working: "Only Monday has happened this week and nothing is logged yet, so there's no genuine pattern to point to — better to say that plainly than read something into an empty start. This now follows a fully blank preceding week (3–9 August) as well, so the useful signal is that the logging habit has lapsed rather than any diet or training trend.",
+    improve: "The logging gap is the whole story: 0 of 7 days have any meal, exercise, or BP entry, extending a run that reaches back through the 3–9 August week — nothing substantive has been logged since 31 July. Getting back to daily logging is the one thing to fix.",
+    suggestions: "Restart with the basics: log a day or two of meals to re-establish daily totals, jot a quick line after any sprint or lifting session, and take one morning BP reading to close the two-week-plus gap — worth doing given perimenopause is a documented window where blood pressure tends to drift upward. Even a couple of days of entries will make the rest of this week's report meaningful.",
     trend: {
       days: ["10 Aug", "11 Aug", "12 Aug", "13 Aug", "14 Aug", "15 Aug", "16 Aug"],
       calories: [null, null, null, null, null, null, null],
@@ -139,13 +139,13 @@ const DATA = {
       { date: "16 Aug", calories: null, protein: null, exercise: [], bp: null }
     ],
     previousWeek: {
-      range: "27 July – 2 August 2026",
-      avgCalories: 1901,
-      avgProtein: 110,
-      sprintSessions: { logged: 2, target: 2 },
-      liftSessions: { logged: 2, target: 3 },
+      range: "3–9 August 2026",
+      avgCalories: null,
+      avgProtein: null,
+      sprintSessions: { logged: 0, target: 2 },
+      liftSessions: { logged: 0, target: 3 },
       bpAvg: "",
-      daysLogged: 5
+      daysLogged: 0
     }
   },
   monthly: {
