@@ -1,12 +1,12 @@
-Daily report — 2026-08-11
+Daily report — 2026-08-16
 
 Nutrition (from meals.csv)
 Nothing logged today. The most recent meal entries in the tracker are from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. This calendar week (Mon 2026-08-10 to Sun 2026-08-16) has nothing logged through Tuesday against the 2x-sprint / 3x-lifting weekly targets. It's now been nearly two weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Sunday, the last day of this calendar week (Mon 2026-08-10 to Sun 2026-08-16), and nothing was logged across any of the seven days — so the week closes out with no sprints and no lifting against the 2x-sprint / 3x-lifting weekly targets. It's now been more than two weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now been over two weeks since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so keeping the habit going is the useful thing.
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now been about three weeks since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so getting back to the morning-reading habit is the useful thing.
 
 Nothing was logged today, so no estimates or given values apply.
