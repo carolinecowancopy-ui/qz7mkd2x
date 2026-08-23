@@ -1,12 +1,12 @@
-Daily report — 22 August 2026
+Daily report — 2026-08-23
 
 Nutrition (from meals.csv)
-Nothing logged today. No meals recorded for 22 August, so there are no totals to compare against the 1,800 kcal / 100g protein targets. The most recent meal entries in the tracker are still from 31 July.
+Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July.
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Sunday, the last day of this calendar week (Mon 2026-08-17 to Sun 2026-08-23), and nothing was logged across any of the seven days — so the week closes out with no sprints and no lifting against the 2x-sprint / 3x-lifting weekly targets. It's now more than three weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The most recent session was 26 July, averaging about 109/62 with a pulse near 69 — sitting comfortably in the normal range, well below the 120/80 threshold on both numbers. That is now nearly a month without a reading, worth closing given perimenopause is a documented window where blood pressure tends to drift upward.
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now nearly a month since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so getting back to the morning-reading habit is the useful thing.
 
-Note: no figures today are estimates or given values — nothing was logged to calculate from.
+Nothing was logged today, so no estimates or given values apply.
