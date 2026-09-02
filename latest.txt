@@ -1,12 +1,21 @@
-Daily report — 2026-09-02
+Weekly report — 31 August 2026 to 6 September 2026 (through Wednesday the 2nd; the rest of this week hasn't happened yet)
 
-Nutrition (from meals.csv)
-Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
+Nutrition
+No meals logged this week. Only Monday the 31st through Wednesday the 2nd have happened so far, and none of them have an entry — the most recent meal entries in the tracker are still from 31 July. There are no daily totals to average against the 1,800 kcal / 100g protein targets. Data exists for 0 of 7 days.
 
-Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. This calendar week (Mon 2026-08-31 to Sun 2026-09-06) has nothing logged through Wednesday against the 2x-sprint / 3x-lifting weekly targets. It's now about five weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
+Exercise
+0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions against the 3/week target. No exercise entries this week — the last recorded session was resistance training (arms/upper body) on 31 July.
 
-Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now over five weeks since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so getting back to the morning-reading habit is the useful thing.
+Blood pressure
+No BP readings logged this week, so no average or trend can be calculated. The most recent session was 26 July, averaging around 109/62 with a pulse near 69 — sitting comfortably in the normal range, a good way below the 120/80 threshold on both numbers. It has now been more than five weeks since the last reading.
 
-Nothing was logged today, so no estimates or given values apply.
+What's working
+Only the first three days of this week have happened and nothing is logged yet, so there's no genuine pattern to point to — better to say that plainly than read something into an empty start. This continues an unbroken run of blank weeks reaching back to 31 July, so the honest signal is that the logging habit has lapsed rather than any diet or training trend.
+
+What needs improvement
+The logging gap is the whole story: 0 of 7 days have any meal, exercise, or BP entry, extending a run that now stretches more than five weeks — nothing substantive has been logged since 31 July. Getting back to daily logging is the one thing to fix.
+
+Suggestions
+Restart with the basics: log a day or two of meals to re-establish daily totals, jot a quick line after any sprint or lifting session, and take one morning BP reading to close the five-week-plus gap — worth doing given perimenopause is a documented window where blood pressure tends to drift upward. Even a couple of days of entries will make the rest of this week's report meaningful.
+
+Note: no figures this week are estimates or given values — nothing was logged to calculate from.
