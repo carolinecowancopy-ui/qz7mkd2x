@@ -1,12 +1,12 @@
-Daily report — 2026-09-03
+Daily report — 2026-09-05
 
 Nutrition (from meals.csv)
 Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. This calendar week (Mon 2026-08-31 to Sun 2026-09-06) has nothing logged through Thursday against the 2x-sprint / 3x-lifting weekly targets. It's now about five weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. This calendar week (Mon 2026-08-31 to Sun 2026-09-06) has nothing logged through Saturday against the 2x-sprint / 3x-lifting weekly targets, with only Sunday left. It's now about five and a half weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now over five weeks since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so getting back to the morning-reading habit is the useful thing.
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now about six weeks since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so getting back to the morning-reading habit is the useful thing.
 
 Nothing was logged today, so no estimates or given values apply.
