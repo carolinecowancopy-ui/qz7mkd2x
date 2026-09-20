@@ -1,21 +1,12 @@
-Weekly report — 14 September 2026 to 20 September 2026 (through Wednesday the 16th; Thursday to Sunday haven't happened yet)
+Daily report — 2026-09-20
 
-Nutrition
-No meals logged this week. Monday the 14th through Wednesday the 16th have happened so far and none of them has an entry — the most recent meal entries in the tracker are still from 31 July. There are no daily totals to average against the 1,800 kcal / 100g protein targets, and the 100g protein target was met on 0 of 0 logged days. Data exists for 0 of 7 days.
+Nutrition (from meals.csv)
+Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
-Exercise
-0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions logged against the 3/week target. No exercise entries this week — the last recorded session was resistance training (arms/upper body) on 31 July, now roughly seven weeks ago.
+Exercise (from exercise.csv)
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Sunday, the last day of this calendar week (Mon 2026-09-14 to Sun 2026-09-20), so the week closes out with nothing logged on any of the seven days — 0 of the 2 sprint sessions and 0 of the 3 lifting sessions. It's now about seven and a half weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
-Blood pressure
-No BP readings logged this week, so there is no weekly average, no band to place it in, and no trend to report. The most recent session was 26 July, averaging around 109/62 with a pulse near 69 — that sat comfortably in the normal range, a good way below the 120/80 boundary on both numbers and nowhere near the elevated band. That reading is now about seven and a half weeks old, which is too old to say anything about where BP actually sits today.
+Blood pressure (from bp.csv)
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). That's now about eight weeks old — too old to say anything about where blood pressure sits at the moment. A single morning reading is the highest-value entry to restart with, especially as perimenopause is a documented window where BP tends to drift upward.
 
-What's working
-Nothing is logged for any of the three days of this week that have happened, so there's no genuine pattern to point to — better to say that plainly than read something into an empty start. This extends an unbroken run of blank weeks reaching back to 31 July, so the honest signal is about the logging habit, not about diet or training.
-
-What needs improvement
-The logging gap is the whole story: 0 of 7 days have any meal, exercise, or BP entry, extending a run that now stretches about seven weeks. The BP gap carries the most real stakes — perimenopause is a documented window where blood pressure tends to rise, and the July readings are now old enough to be uninformative about the present. The training gap matters too: resistance training and sprint work are the main levers for preserving muscle and bone through perimenopause, so seven weeks without a logged session is worth closing.
-
-Suggestions
-Take one morning BP reading this week — it is the single highest-value entry, it closes a seven-week gap, and if a reading lands in the 130s systolic that is worth mentioning to your doctor. Log one day of meals end to end rather than a partial day, so daily calorie and protein totals come back and the 100g protein floor becomes trackable again. Jot a single line after any sprint or lift ("sprints, 20 min" / "lifted, upper body") — there are still four days left in this week to put something on the board.
-
-Note: no figures this week are estimates or given values — nothing was logged to calculate from. The 26 July BP figures cited for context are as originally logged.
+Nothing was logged today, so no estimates or given values apply.
