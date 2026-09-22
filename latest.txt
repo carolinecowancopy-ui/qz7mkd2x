@@ -1,12 +1,12 @@
-Daily report — 2026-09-20
+Daily report — 2026-09-22
 
 Nutrition (from meals.csv)
 Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Sunday, the last day of this calendar week (Mon 2026-09-14 to Sun 2026-09-20), so the week closes out with nothing logged on any of the seven days — 0 of the 2 sprint sessions and 0 of the 3 lifting sessions. It's now about seven and a half weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Tuesday, the second day of this calendar week (Mon 2026-09-21 to Sun 2026-09-27), and nothing is logged yet on either day against the 2x-sprint / 3x-lifting weekly targets — five days still left to put something on the board. It's now close to eight weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). That's now about eight weeks old — too old to say anything about where blood pressure sits at the moment. A single morning reading is the highest-value entry to restart with, especially as perimenopause is a documented window where BP tends to drift upward.
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). That reading is now about eight and a half weeks old, which is too old to say anything about where blood pressure actually sits today. One morning reading is the single highest-value entry to restart with — perimenopause is a documented window where BP tends to drift upward, and if a reading lands in the 130s systolic that's worth mentioning to your doctor.
 
 Nothing was logged today, so no estimates or given values apply.
