@@ -1,21 +1,12 @@
-Weekly report — 21 September 2026 to 27 September 2026 (through Tuesday the 22nd; Wednesday to Sunday haven't happened yet)
+Daily report — 2026-09-23
 
-Nutrition
-No meals logged this week. Monday the 21st and Tuesday the 22nd have happened so far and neither has an entry — the most recent meal entries in the tracker are still from 31 July. There are no daily totals to average against the 1,800 kcal / 100g protein targets, and the 100g protein target was met on 0 of 0 logged days. Data exists for 0 of 7 days.
+Nutrition (from meals.csv)
+Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
-Exercise
-0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions logged against the 3/week target. No exercise entries this week — the last recorded session was resistance training (arms/upper body) on 31 July, now about seven and a half weeks ago.
+Exercise (from exercise.csv)
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Wednesday, the third day of this calendar week (Mon 2026-09-21 to Sun 2026-09-27), and nothing has been logged yet against the 2x-sprint / 3x-lifting weekly targets. It's now about eight weeks since the last logged session; a quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
-Blood pressure
-No BP readings logged this week, so there is no weekly average, no band to place it in, and no trend to report. The most recent session was 26 July, averaging around 109/62 with a pulse near 69 — that sat comfortably in the normal range, a good way below the 120/80 boundary on both numbers and nowhere near the elevated band. That reading is now about eight weeks old, which is too old to say anything about where blood pressure actually sits today.
+Blood pressure (from bp.csv)
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now nearly two months since the last BP reading — worth taking a morning reading soon, especially as perimenopause is a documented window where BP tends to drift upward, so getting back to the morning-reading habit is the useful thing.
 
-What's working
-Only two days of this week have happened and nothing is logged for either, so there's no genuine pattern to point to — better to say that plainly than read something into an empty start. The run of blank weeks now reaches back to 31 July, so the honest signal is about the logging habit rather than about diet or training.
-
-What needs improvement
-The logging gap is the whole story: 0 of 7 days have any meal, exercise, or BP entry, extending a run of about eight weeks. The BP gap carries the most real stakes — perimenopause is a documented window where blood pressure tends to rise, and the July readings are now old enough to say nothing useful about the present. The training gap matters on the same grounds: resistance training and sprint work are the main levers for preserving muscle and bone through perimenopause.
-
-Suggestions
-Take one morning BP reading this week — it's the single highest-value entry, it closes an eight-week gap, and if a reading lands in the 130s systolic that's worth mentioning to your doctor. Log one day of meals end to end rather than a partial day, so daily calorie and protein totals come back and the 100g floor becomes trackable again. Jot one line after any sprint or lift ("sprints, 20 min" / "lifted, upper body") — there are still five days left in this week to put something on the board.
-
-Note: no figures this week are estimates or given values — nothing was logged to calculate from. The 26 July BP figures cited for context are as originally logged.
+Nothing was logged today, so no estimates or given values apply.
