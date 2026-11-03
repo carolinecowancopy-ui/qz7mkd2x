@@ -1,28 +1,21 @@
-Monthly report — October 2026
+Weekly report — 2 November 2026 to 8 November 2026 (through Tuesday the 3rd; Wednesday to Sunday haven't happened yet)
 
-Week-by-week
-Week of 5 Oct (5–11 Oct): 0 days logged. No meals, exercise, or BP.
-Week of 12 Oct (12–18 Oct): 0 days logged. No meals, exercise, or BP.
-Week of 19 Oct (19–25 Oct): 0 days logged. No meals, exercise, or BP.
-Week of 26 Oct (26 Oct–1 Nov): 0 days logged. No meals, exercise, or BP.
-(Thursday 1 Oct to Sunday 4 Oct belong to the week of 28 Sep, which was counted in September; nothing was logged on those days either.)
+Nutrition
+No meals logged this week. Monday the 2nd and today, Tuesday the 3rd, have happened so far and neither has an entry — the most recent meal entries in the tracker are still from 31 July. There are no daily totals to average against the 1,800 kcal / 100g protein targets, and the 100g protein target was met on 0 of 0 logged days. Data exists for 0 of 7 days.
 
-Nutrition (month total)
-Nothing was logged in October. None of the 28 days in October's four weeks has a meal entry, so there are no daily calorie or protein averages to set against the 1,800 kcal / 100g protein targets, and the 100g protein target was met on 0 of 0 logged days. The most recent meals in the tracker are still from 31 July.
+Exercise
+0 sprint interval sessions logged against the 2/week target. 0 heavy lifting sessions logged against the 3/week target. The last recorded session was resistance training (arms/upper body) on 31 July, now just over thirteen and a half weeks ago.
 
-Exercise (month total)
-0 sprint interval sessions against a target of 8 (2/week across the month's 4 weeks). 0 heavy lifting sessions against a target of 12 (3/week). The last recorded session was resistance training (arms/upper body) on 31 July, now about thirteen and a half weeks ago.
-
-Blood pressure (month total)
-No BP readings were logged in October, so there is no monthly average, no band to place it in, and no trend across the weeks. The most recent session was 26 July, averaging about 109/62 with a pulse near 69, sitting comfortably in the normal range, a good way below the 120/80 boundary on both numbers. That reading is now about fourteen weeks old, too old to say anything about where blood pressure sits today.
+Blood pressure
+No BP readings logged this week, so there is no weekly average, no band to place it in, and no trend to report. The most recent session was 26 July, averaging around 109/62 with a pulse near 69 — comfortably in the normal range, a good way below the 120/80 boundary on both numbers. That reading is now just over fourteen weeks old, too old to say anything about where blood pressure sits today.
 
 What's working
-Nothing was logged this month, so there is no diet, training, or BP pattern to point to, and it's better to say that plainly than read something into a blank month. The useful reference point is still July, when the log was running: calories sat close to target, protein averaged around 100g, both sprints landed in the last full weeks, and BP settled comfortably normal.
+Two days of this week have happened and nothing is logged for either, so there's no genuine pattern to point to — better to say that plainly than read something into an empty start. The preceding week (26 October–1 November) closed with nothing logged as well, so the signal is about the logging habit, not diet or training.
 
 What needs improvement
-This is the third fully blank month in a row (August, September, October), with nothing logged since 31 July. The BP gap carries the most weight, because perimenopause is a documented window where blood pressure tends to rise and a July reading can't stand in for now. The training gap matters on similar grounds, since resistance training and protein are the main levers for holding on to muscle and bone through perimenopause.
+The logging gap is the whole story: 0 of 7 days have any entry, extending a run back to 31 July. The BP gap carries the most real stakes — perimenopause is a documented window where blood pressure tends to rise, and a reading from late July can't tell you where you are now. Resistance training and sprint work are the main levers for preserving muscle and bone through perimenopause, so the training gap matters on the same grounds.
 
 Suggestions
-Take one morning BP reading this week as the restart entry; if it lands in the 130s systolic or higher, that's worth mentioning to your doctor. Log one full day of meals end to end so the calorie and protein totals come back. Jot a single line after any sprint or lift ("sprints, 20 min" / "lifted, upper body"); even one or two entries a week would make November's report say something real.
+Take one morning BP reading before Sunday — it's the single highest-value entry, and if it lands in the 130s systolic or higher, that's worth mentioning to your doctor. Log one full day of meals end to end so calorie and protein totals come back and the 100g floor is trackable again. Jot one line after any sprint or lift ("sprints, 20 min" / "lifted, upper body") — five days are still left in this week.
 
-Figures note: no figures this month are estimates or given values — nothing was logged to calculate from. The 26 July BP figures cited for context are as originally logged.
+Note: no figures this week are estimates or given values — nothing was logged to calculate from. The 26 July BP figures cited for context are as originally logged.
