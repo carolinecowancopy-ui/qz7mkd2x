@@ -1,12 +1,12 @@
-Daily report — 2026-11-08
+Daily report — 2026-11-15
 
 Nutrition (from meals.csv)
 Nothing logged today. The most recent meal entries in the tracker are still from 31 July, so there are no totals to compare against the 1800 kcal / 100g protein targets.
 
 Exercise (from exercise.csv)
-Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Sunday, the last day of the calendar week Mon 2026-11-02 to Sun 2026-11-08, so the week closes with nothing logged on any of the seven days: 0 of the 2 sprint sessions and 0 of the 3 lifting sessions. It's now just over fourteen weeks since the last logged session. A quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
+Nothing logged today. The last recorded session was resistance training (arms/upper body) on 31 July. Today is Sunday, the last day of the calendar week Mon 2026-11-09 to Sun 2026-11-15, so the week closes with nothing logged on any of the seven days: 0 of the 2 sprint sessions and 0 of the 3 lifting sessions. It's now just over fifteen weeks since the last logged session. A quick note after any sprint or lift ("sprints, 20 min" / "lifted, upper body") would keep the exercise targets trackable.
 
 Blood pressure (from bp.csv)
-Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now fifteen weeks since the last BP reading. A morning reading soon would be worth taking, since perimenopause is a documented window where BP tends to drift upward and a current baseline is what's useful.
+Nothing logged today. The last reading was 26 July (averaged 109/62, pulse ~69, sitting comfortably in the normal range, well below the 120/80 threshold on both numbers). It's now sixteen weeks since the last BP reading. A morning reading soon would be worth taking, since perimenopause is a documented window where BP tends to drift upward and a current baseline is what's useful.
 
 Nothing was logged today, so no estimates or given values apply.
